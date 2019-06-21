@@ -34,7 +34,17 @@
 - ESPN
 - Print News
 - Stoves
-
+- Cars
+- Toyota Scion
+- The McWrap
+- Marmalade
+- Anti-aging industry
+- Trees
+- Loyalty Programs
+- Fashion
+- Hangout Sitcoms
+- Stilettos
+- Large Turkeys
 
 ## Activities 
 - Golf
@@ -49,17 +59,23 @@
 - Voting Lines
 - Focus Groups
 - Dinner Dates
+- Vacations
+- Crowdfunding
+- Gambling
+- The Olympics
+- Brunch
 
-## Traditions/Norms
+## Traditions/Norms/Other
 - Divorce
 - Marriage
 - 9-5 Workday
 - Middle Children
-- 
-- 
-- 
-- 
-- 
+- Handshakes
+- Relationshops
+- Travel marketing
+- The American Dream
+- Romance
+- Baby Names
 
 ## Places/Companies
 - Casual Dining
@@ -71,6 +87,16 @@
 - Movie Theaters
 - Applebees
 - Hooters
+- J Crew
+- McDonalds
+- Canadian tourism
+- Hotels
+- Buffalo Wild Wings
+- The European Union
+- Bars
+- TGI Fridays
 
 ## Articles
 - https://www.theatlantic.com/ideas/archive/2018/12/stop-blaming-millennials-killing-economy/577408/
+- https://mashable.com/2017/07/31/things-millennials-have-killed/
+- https://mashable.com/2017/07/31/things-millennials-have-killed/
