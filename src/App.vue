@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Hero/>
+    <Card/>
   </div>
 </template>
 
 <script>
 import Hero from './components/Hero.vue'
+import Card from './components/Card.vue'
 
 export default {
   name: 'app',
   components: {
-    Hero
+    Hero,
+    Card
   }
 }
 </script>
