@@ -21,6 +21,7 @@
 - Designer Handbags
 - Oil
 - Mayonnaise
+  - https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/
 - Razors
 - Avacado
 - Toys
@@ -33,6 +34,7 @@
 - Postcards
 - Canned Tuna
 - American Cheese
+  - https://www.fastcompany.com/90249185/whats-the-latest-thing-millennials-killed-according-to-bloomberg-its-american-cheese
 - Luxury Goods
 - Raisins
 - Credit Cards
@@ -73,6 +75,7 @@
 ## Traditions/Norms/Other
 - Divorce
 - Marriage
+  - https://www.wweek.com/news/2018/09/22/oregon-millennials-are-killing-marriage-new-report-says/
 - 9-5 Workday
 - Middle Children
 - Handshakes
@@ -82,6 +85,8 @@
 - Romance
 - Baby Names
 - Signatures
+- Office dress codes
+  - https://www.chron.com/life/article/Millennials-have-now-been-blamed-for-killing-13208987.php
 
 ## Places/Companies
 - Casual Dining
@@ -104,5 +109,4 @@
 
 ## Articles
 - https://www.theatlantic.com/ideas/archive/2018/12/stop-blaming-millennials-killing-economy/577408/
-- https://mashable.com/2017/07/31/things-millennials-have-killed/
 - https://mashable.com/2017/07/31/things-millennials-have-killed/
