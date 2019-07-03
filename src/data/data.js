@@ -3,9 +3,10 @@ export const dataList = [
 		name: 'Napkins',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2019,
-		image: 'napkin.jpeg',
+		image: 'roll-of-paper.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
 		verdict: 'good',
+		type: 'product',
 		sources: [
 			{
 				name: 'Washington Post',
@@ -23,9 +24,10 @@ export const dataList = [
 		name: 'Divorce',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2019,
-		image: 'divorce.jpeg',
+		image: 'broken-heart.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
 		verdict: 'good',
+		type: 'tradition',
 		sources: [
 			{
 				name: 'BBC',
@@ -43,9 +45,10 @@ export const dataList = [
 		name: 'Beer',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2011,
-		image: 'beer.jpeg',
+		image: 'clinking-beer-mugs.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
 		verdict: 'good',
+		type: 'product',
 		sources: [
 			{
 				name: 'CNN',
@@ -63,8 +66,9 @@ export const dataList = [
 		name: 'Cereal',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2011,
-		image: 'cereal.jpeg',
+		image: 'glass-of-milk.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		type: 'product',
 		sources: [
 			{
 				name: 'Washington Post',
@@ -77,5 +81,331 @@ export const dataList = [
 				link: 'https://www.google.com'	
 			}
 		]
+	},
+	{
+		name: 'Motorcycles',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'motorcycle.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'product',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Department Stores',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'shopping-bags.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'place',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Ironing',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'womans-clothes.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'activity',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Cruises',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'passenger-ship.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'activity',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Weddings',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'wedding.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'traditions',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Credit Cards',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'credit-card.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'product',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Raisins',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'grapes.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'product',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Banks',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'bank.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'place',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Casual Dining',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'takeout-box.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'place',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Handshakes',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'handshake.png',
+		imageAttribute: 'Cytonn Photography',
+		imageURL: 'https://unsplash.com/photos/n95VMLxqM2I',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'activity',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: '9-5 Workday',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'woman-office-worker-medium-skin-tone.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'tradition',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
+	},
+	{
+		name: 'Middle Children',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'family-woman-girl.png',
+		imageAttribute: 'Samantha Sophia',
+		imageURL: 'https://unsplash.com/photos/fqyEoItOUGE',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'other',
+		sources: [
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			},
+			{
+				name: 'Source Here',
+				year: 2019,
+				link: 'https://www.google.com'	
+			}
+		]
 	}
 ]
+
+
+
+
+
+
+
+
+
+
