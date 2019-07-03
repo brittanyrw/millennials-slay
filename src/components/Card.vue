@@ -5,6 +5,9 @@
         <img v-bind:src="require('../assets/' + item.image)" v-bind:alt="item.name">
         <p>{{item.summary}}</p>
         <p>{{item.why}}</p>
+            <ul v-for="(source, index) in item.sources" v-bind:key="index" class="sources">
+              <li>{{source.name}}</li>
+            </ul>
       </div>
   </div>
 </template>
@@ -41,6 +44,8 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 .card img {
   width: 100%;

@@ -5,6 +5,7 @@ export const dataList = [
 		year: 2019,
 		image: 'napkin.jpeg',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
 		sources: [
 			{
 				name: 'Washington Post',
@@ -24,9 +25,10 @@ export const dataList = [
 		year: 2019,
 		image: 'divorce.jpeg',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
 		sources: [
 			{
-				name: 'Washington Post',
+				name: 'BBC',
 				year: 2019,
 				link: 'https://www.google.com'	
 			},
@@ -43,9 +45,10 @@ export const dataList = [
 		year: 2011,
 		image: 'beer.jpeg',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
 		sources: [
 			{
-				name: 'Washington Post',
+				name: 'CNN',
 				year: 2019,
 				link: 'https://www.google.com'	
 			},
