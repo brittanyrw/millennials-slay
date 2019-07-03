@@ -2,13 +2,18 @@
 
 ## Products
 - Beer
-  - http://www.businessinsider.com/millennials-are-killing-beer-2017-7
+  - Business Insider (2017): http://www.businessinsider.com/millennials-are-killing-beer-2017-7
 - Napkins
-  - http://www.businessinsider.com/millennials-hate-napkins-2016-3
-  - https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html
+  - Business Insider (2016): http://www.businessinsider.com/millennials-hate-napkins-2016-3
+  - Washington Post (2016): https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html
 - Cereal
-  - http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0
+  - New York Times (2016): http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0
 - Motorcycles
+  - CNBC (2019) - https://www.cnbc.com/2019/01/25/actually-young-people-really-could-kill-harley-davidson.html
+  - Fortune (2019) - https://fortune.com/2019/01/27/millennials-harley-davidson-motorcycles/
+  - MarketWatch (2018) - https://www.marketwatch.com/story/millennials-are-killing-motorcycles-but-subscriptions-might-rev-sales-2018-04-13
+  - The Drive (2017) - https://www.thedrive.com/opinion/12489/analysts-are-wrong-about-why-millenials-arent-buying-harleys
+  - Bloomberg (2017) - https://www.bloomberg.com/news/articles/2017-07-05/can-millennials-save-the-motorcycle-industry
 - Yogurt
 - Bars of Soap
 - Diamonds
@@ -16,6 +21,7 @@
 - Designer Handbags
 - Oil
 - Mayonnaise
+  - https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/
 - Razors
 - Avacado
 - Toys
@@ -28,6 +34,7 @@
 - Postcards
 - Canned Tuna
 - American Cheese
+  - https://www.fastcompany.com/90249185/whats-the-latest-thing-millennials-killed-according-to-bloomberg-its-american-cheese
 - Luxury Goods
 - Raisins
 - Credit Cards
@@ -68,14 +75,18 @@
 ## Traditions/Norms/Other
 - Divorce
 - Marriage
+  - https://www.wweek.com/news/2018/09/22/oregon-millennials-are-killing-marriage-new-report-says/
 - 9-5 Workday
 - Middle Children
 - Handshakes
-- Relationshops
+- Relationships
 - Travel marketing
 - The American Dream
 - Romance
 - Baby Names
+- Signatures
+- Office dress codes
+  - https://www.chron.com/life/article/Millennials-have-now-been-blamed-for-killing-13208987.php
 
 ## Places/Companies
 - Casual Dining
@@ -98,5 +109,4 @@
 
 ## Articles
 - https://www.theatlantic.com/ideas/archive/2018/12/stop-blaming-millennials-killing-economy/577408/
-- https://mashable.com/2017/07/31/things-millennials-have-killed/
 - https://mashable.com/2017/07/31/things-millennials-have-killed/
