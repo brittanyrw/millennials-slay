@@ -1,92 +1,80 @@
-# Initial List of Industries and Traditions
+# List of Industries and Traditions
+This is a list of industries, products, traditions and activities that need to be added to the directory.
 
 ## Products
-- Beer
-  - Business Insider (2017): http://www.businessinsider.com/millennials-are-killing-beer-2017-7
-- Napkins
-  - Business Insider (2016): http://www.businessinsider.com/millennials-hate-napkins-2016-3
-  - Washington Post (2016): https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html
-- Cereal
-  - New York Times (2016): http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0
-- Motorcycles
-  - CNBC (2019) - https://www.cnbc.com/2019/01/25/actually-young-people-really-could-kill-harley-davidson.html
-  - Fortune (2019) - https://fortune.com/2019/01/27/millennials-harley-davidson-motorcycles/
-  - MarketWatch (2018) - https://www.marketwatch.com/story/millennials-are-killing-motorcycles-but-subscriptions-might-rev-sales-2018-04-13
-  - The Drive (2017) - https://www.thedrive.com/opinion/12489/analysts-are-wrong-about-why-millenials-arent-buying-harleys
-  - Bloomberg (2017) - https://www.bloomberg.com/news/articles/2017-07-05/can-millennials-save-the-motorcycle-industry
-- Yogurt
-- Bars of Soap
-- Diamonds
-- Fabric Softener
-- Designer Handbags
-- Oil
-- Mayonnaise
-  - https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/
-- Razors
-- Avacado
-- Toys
-- Soda
-- Cable TV
-- Suits
-- Wine Corks
-- Doorbells
-- Lottery Tickets
-- Postcards
-- Canned Tuna
 - American Cheese
   - https://www.fastcompany.com/90249185/whats-the-latest-thing-millennials-killed-according-to-bloomberg-its-american-cheese
-- Luxury Goods
-- Raisins
-- Credit Cards
-- ESPN
-- Print News
-- Stoves
-- Cars
-- Toyota Scion
-- The McWrap
-- Marmalade
 - Anti-aging industry
-- Trees
-- Loyalty Programs
+- Avacado
+- Bars of Soap
+- Cable TV
+- Canned Tuna
+- Cars
+- Credit Cards
+- Designer Handbags
+- Diamonds
+- Doorbells
+- ESPN
+- Fabric Softener
 - Fashion
 - Hangout Sitcoms
-- Stilettos
 - Large Turkeys
+- Lottery Tickets
+- Loyalty Programs
+- Luxury Goods
+- Marmalade
+- Mayonnaise
+  - https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/
+- The McWrap
+- Oil
+- Postcards
+- Print News
+- Raisins
+- Razors
+- Soda
+- Stilettos
+- Stoves
+- Suits
+- Toyota Scion
+- Toys
+- Trees
+- Wine Corks
+- Yogurt
 
 ## Activities 
+- Brunch
+- Cruises
+- Crowdfunding
+- Dinner Dates
+- Exorcisms
+- Focus Groups
+- Football
+- Gambling
 - Golf
   - http://www.businessinsider.com/millennials-are-hurting-the-golf-industry-2016-7
-- Football
-- Weddings
-- Cruises
 - Ironing
+- The Olympics
 - Running
   - https://www.wsj.com/articles/how-millennials-ended-the-running-boom-1462473195
-- Exorcisms
-- Voting Lines
-- Focus Groups
-- Dinner Dates
 - Vacations
-- Crowdfunding
-- Gambling
-- The Olympics
-- Brunch
+- Voting Lines
+- Weddings
 
 ## Traditions/Norms/Other
+- 9-5 Workday
+- The American Dream
+- Baby Names
 - Divorce
+- Handshakes
 - Marriage
   - https://www.wweek.com/news/2018/09/22/oregon-millennials-are-killing-marriage-new-report-says/
-- 9-5 Workday
 - Middle Children
-- Handshakes
-- Relationships
-- Travel marketing
-- The American Dream
-- Romance
-- Baby Names
-- Signatures
 - Office dress codes
   - https://www.chron.com/life/article/Millennials-have-now-been-blamed-for-killing-13208987.php
+- Relationships
+- Romance
+- Signatures
+- Travel marketing
 
 ## Places/Companies
 - Casual Dining

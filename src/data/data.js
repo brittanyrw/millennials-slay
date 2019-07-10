@@ -9,14 +9,14 @@ export const dataList = [
 		type: 'product',
 		sources: [
 			{
-				name: 'Washington Post',
-				year: 2019,
-				link: 'https://www.google.com'	
+				name: 'Business Insider',
+				year: 2016,
+				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'	
 			},
 			{
-				name: 'New York Times',
-				year: 2018,
-				link: 'https://www.google.com'	
+				name: 'Washington Post',
+				year: 2016,
+				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'	
 			}
 		]
 	},
@@ -51,9 +51,9 @@ export const dataList = [
 		type: 'product',
 		sources: [
 			{
-				name: 'CNN',
-				year: 2019,
-				link: 'https://www.google.com'	
+				name: 'Business Insider',
+				year: 2017,
+				link: 'http://www.businessinsider.com/millennials-are-killing-beer-2017-7'	
 			},
 			{
 				name: 'New York Times',
@@ -71,9 +71,9 @@ export const dataList = [
 		type: 'product',
 		sources: [
 			{
-				name: 'Washington Post',
-				year: 2019,
-				link: 'https://www.google.com'	
+				name: 'New York Times',
+				year: 2016,
+				link: 'http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0'	
 			},
 			{
 				name: 'New York Times',
@@ -82,6 +82,8 @@ export const dataList = [
 			}
 		]
 	},
+
+- Motorcycles
 	{
 		name: 'Motorcycles',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -92,19 +94,29 @@ export const dataList = [
 		type: 'product',
 		sources: [
 			{
-				name: 'Source Here',
-				year: 2019,
-				link: 'https://www.google.com'	
+				name: 'Bloomberg',
+				year: 2017,
+				link: 'https://www.bloomberg.com/news/articles/2017-07-05/can-millennials-save-the-motorcycle-industry'	
 			},
 			{
-				name: 'Source Here',
-				year: 2019,
-				link: 'https://www.google.com'	
+				name: 'The Drive',
+				year: 2017,
+				link: 'https://www.thedrive.com/opinion/12489/analysts-are-wrong-about-why-millenials-arent-buying-harleys'	
 			},
 			{
-				name: 'Source Here',
+				name: 'MarketWatch',
+				year: 2018,
+				link: 'https://www.marketwatch.com/story/millennials-are-killing-motorcycles-but-subscriptions-might-rev-sales-2018-04-13'	
+			},
+			{
+				name: 'Fortune',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://fortune.com/2019/01/27/millennials-harley-davidson-motorcycles/'	
+			},
+			{
+				name: 'CNBC',
+				year: 2019,
+				link: 'https://www.cnbc.com/2019/01/25/actually-young-people-really-could-kill-harley-davidson.html'	
 			}
 		]
 	},
