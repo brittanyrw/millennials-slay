@@ -82,8 +82,6 @@ export const dataList = [
 			}
 		]
 	},
-
-- Motorcycles
 	{
 		name: 'Motorcycles',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
