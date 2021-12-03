@@ -1,5 +1,68 @@
 export const dataList = [
 	{
+		name: 'Anti-aging Industry',
+		image: 'woman-white-hair.png'
+	},
+	{
+		name: 'Avacado',
+		image: 'avocado.png'
+	},
+	{
+		name: 'Bars of Soap',
+		image: 'soap.png'
+	},
+	{
+		name: 'Cable TV',
+		image: 'television.png'
+	},
+	{
+		name: 'Canned Tuna',
+		image: 'canned-food.png'
+	},
+	{
+		name: 'Cars',
+		image: 'automobile.png'
+	},
+	{
+		name: 'Designer Handbags',
+		image: 'clutch-bag.png'
+	},{
+		name: 'Diamonds',
+		image: 'gem-stone.png'
+	},
+	{
+		name: 'Football',
+		image: 'american-football.png'
+	},
+	{
+		name: 'Vacations',
+		image: 'desert-island.png'
+	},
+	{
+		name: 'Hotels',
+		image: 'hotel.png'
+	},
+	{
+		name: 'American Cheese',
+		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		year: 2019,
+		image: 'cheese-wedge.png',
+		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
+		verdict: 'good',
+		type: 'product',
+		sources: [
+			{
+				name: 'Business Insider',
+				year: 2016,
+				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'	
+			},
+			{
+				name: 'Washington Post',
+				year: 2016,
+				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'	
+			}
+		]
+	},{
 		name: 'Napkins',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2019,
