@@ -10,12 +10,15 @@ This is a list of industries, products, traditions and activities that need to b
 - Cable TV
 - Canned Tuna
 - Cars
+  - https://transfersmagazine.org/2018/05/08/millennials-killing-transportation/
 - Credit Cards
 - Designer Handbags
 - Diamonds
+  - https://www.cnbc.com/2017/05/20/millennial-couples-arent-buying-diamonds.html
 - Doorbells
 - ESPN
 - Fabric Softener
+  - https://www.wsj.com/articles/fabric-softener-sales-are-losing-their-bounce-1481889602?mg=prod/accounts-wsj
 - Fashion
 - Hangout Sitcoms
 - Large Turkeys
@@ -26,12 +29,17 @@ This is a list of industries, products, traditions and activities that need to b
 - Mayonnaise
   - https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/
 - The McWrap
+- Motorcycles
+  - https://www.cnbc.com/2017/07/12/millennials-dont-like-motorcycles-and-thats-killing-harleys-sales.html
+- Napkins
+  - https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html?noredirect=on&utm_term=.5e8aa9b8880b
 - Oil
 - Postcards
 - Print News
 - Raisins
 - Razors
 - Soda
+  - https://www.abc10.com/article/news/millennials-are-killingsoda/103-3cd11d21-a99c-4a0f-bc82-8094948d5952
 - Stilettos
 - Stoves
 - Suits
@@ -40,6 +48,8 @@ This is a list of industries, products, traditions and activities that need to b
 - Trees
 - Wine Corks
 - Yogurt
+- Movies 
+  - https://www.cnet.com/news/ridley-scott-blames-millennials-for-the-box-office-failure-of-the-last-duel/  
 
 ## Activities 
 - Brunch
@@ -57,6 +67,7 @@ This is a list of industries, products, traditions and activities that need to b
 - Running
   - https://www.wsj.com/articles/how-millennials-ended-the-running-boom-1462473195
 - Vacations
+  - https://www.inc.com/jessica-stillman/hey-millennials-stop-killing-the-vacation.html
 - Voting Lines
 - Weddings
 
@@ -78,7 +89,10 @@ This is a list of industries, products, traditions and activities that need to b
 
 ## Places/Companies
 - Casual Dining
+- Chain Restaruants
+  - https://www.businessinsider.com/buffalo-wild-wings-ceo-on-why-restaurants-struggle-2017-5
 - Real Estate
+  - https://www.marketwatch.com/story/student-debt-is-delaying-millennial-homeownership-by-seven-years-2017-09-18
 - Banks
 - Department Stores
 - Gyms

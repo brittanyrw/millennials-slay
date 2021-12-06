@@ -1,50 +1,156 @@
-export const dataList = [
+export const industries = [
+	{
+		name: 'Gyms',
+		image: 'woman-lifting-weights-medium-dark-skin-tone.png',
+		type: 'location',
+		note: '',
+		start: '1869',
+		origin: '2016',
+		summary: 'How dare millenials prefer tech-savvy, updated specialized facilities.',
+		sources: [
+			{
+				name: 'ABC 10',
+				year: 2019,
+				link: 'https://www.abc10.com/article/life/millennials-are-killinggyms/103-09fa19a7-e011-40f1-8438-d1932884e376'
+			},
+			{
+				name: 'NY Post',
+				year: 2016,
+				link: 'https://nypost.com/2016/10/17/millennials-are-killing-gyms-too/'
+			},
+			{
+				name: 'Venture Beat',
+				year: 2020,
+				link: 'https://venturebeat.com/2020/06/28/how-coronavirus-and-millennials-killed-the-non-digital-gym/'
+			},
+			{
+				name: 'CB Insights',
+				year: 2020,
+				link: 'https://www.cbinsights.com/research/millennials-killing-industries/'
+			}
+		]
+	}, 
+	{
+		name: 'Newspapaer',
+		image: 'newspaper.png',
+		type: 'product'
+	}, 
+	{
+		name: 'American Dream',
+		image: 'flag-united-states.png',
+		type: 'tradition',
+		summary: 'Why support something you can never achieve?'
+	},
+	{
+		name: 'Signatures',
+		image: 'fountain-pen.png',
+		type: 'traditions'
+	},
+	{
+		name: 'Oil',
+		image: 'oil-drum.png',
+		type: 'product',
+		summary: 'It would be a good thing??'
+	}, 
+	{
+		name: 'Trees',
+		image: 'deciduous-tree.png',
+		type: 'product'
+	}, 
+	{
+		name: 'Brunch',
+		image: 'pancakes.png',
+		type: '',
+		summary: 'Millenials are the ones holding up this industry tbh.'
+	}, 
+	{
+		name: 'Running',
+		image: 'person-running-medium-skin-tone.png',
+		type: 'activity'
+	}, 
+	{
+		name: 'Baby Names',
+		image: 'baby-medium-skin-tone.png',
+		type: 'tradition',
+		summary: 'No babies have been named since.'
+	}, 
+	{
+		name: 'Office Dress Codes',
+		image: 't-shirt.png',
+		type: 'tradition',
+		summary: 'Alright fine, they can have this one.'
+	}, 
+	{
+		name: 'Real Estate',
+		image: 'house-with-garden.png',
+		type: 'product',
+		summary: 'If we could still get a house for three pennies and a horse we\'d love this industry too.'
+	}, 
+	{
+		name: 'European Union',
+		image: 'flag-european-union.png',
+		type: 'location',
+		summary: 'World domination, let\'s go.',
+	},
 	{
 		name: 'Anti-aging Industry',
-		image: 'woman-white-hair.png'
+		image: 'woman-white-hair.png',
+		note: '',
+		type: 'product'
 	},
 	{
 		name: 'Avacado',
-		image: 'avocado.png'
+		image: 'avocado.png',
+		type: 'product'
 	},
 	{
 		name: 'Bars of Soap',
-		image: 'soap.png'
+		image: 'soap.png',
+		type: 'product'
 	},
 	{
 		name: 'Cable TV',
-		image: 'television.png'
+		image: 'television.png',
+		type: 'product'
 	},
 	{
 		name: 'Canned Tuna',
-		image: 'canned-food.png'
+		image: 'canned-food.png',
+		type: 'product'
 	},
 	{
 		name: 'Cars',
-		image: 'automobile.png'
+		image: 'automobile.png',
+		type: 'product'
 	},
 	{
 		name: 'Designer Handbags',
-		image: 'clutch-bag.png'
-	},{
+		image: 'clutch-bag.png',
+		type: 'product'
+	}, {
 		name: 'Diamonds',
-		image: 'gem-stone.png'
+		image: 'gem-stone.png',
+		type: 'product',
+		summary: 'Stop being shady in how you get them and maybe they could stay.'
 	},
 	{
 		name: 'Football',
-		image: 'american-football.png'
+		image: 'american-football.png',
+		type: 'activity'
 	},
 	{
 		name: 'Vacations',
-		image: 'desert-island.png'
+		image: 'desert-island.png',
+		type: 'activity'
 	},
 	{
 		name: 'Hotels',
-		image: 'hotel.png'
+		image: 'hotel.png',
+		type: 'location'
 	},
 	{
 		name: 'American Cheese',
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		summary: 'Because we have taste and standards.',
 		year: 2019,
 		image: 'cheese-wedge.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
@@ -54,15 +160,15 @@ export const dataList = [
 			{
 				name: 'Business Insider',
 				year: 2016,
-				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'	
+				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'
 			},
 			{
 				name: 'Washington Post',
 				year: 2016,
-				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'	
+				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'
 			}
 		]
-	},{
+	}, {
 		name: 'Napkins',
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		year: 2019,
@@ -74,12 +180,12 @@ export const dataList = [
 			{
 				name: 'Business Insider',
 				year: 2016,
-				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'	
+				link: 'http://www.businessinsider.com/millennials-hate-napkins-2016-3'
 			},
 			{
 				name: 'Washington Post',
 				year: 2016,
-				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'	
+				link: 'https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html'
 			}
 		]
 	},
@@ -95,12 +201,12 @@ export const dataList = [
 			{
 				name: 'BBC',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'New York Times',
 				year: 2018,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -116,12 +222,12 @@ export const dataList = [
 			{
 				name: 'Business Insider',
 				year: 2017,
-				link: 'http://www.businessinsider.com/millennials-are-killing-beer-2017-7'	
+				link: 'http://www.businessinsider.com/millennials-are-killing-beer-2017-7'
 			},
 			{
 				name: 'New York Times',
 				year: 2018,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -136,12 +242,12 @@ export const dataList = [
 			{
 				name: 'New York Times',
 				year: 2016,
-				link: 'http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0'	
+				link: 'http://www.nytimes.com/2016/02/24/dining/breakfast-cereal.html?_r=0'
 			},
 			{
 				name: 'New York Times',
 				year: 2018,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -157,27 +263,27 @@ export const dataList = [
 			{
 				name: 'Bloomberg',
 				year: 2017,
-				link: 'https://www.bloomberg.com/news/articles/2017-07-05/can-millennials-save-the-motorcycle-industry'	
+				link: 'https://www.bloomberg.com/news/articles/2017-07-05/can-millennials-save-the-motorcycle-industry'
 			},
 			{
 				name: 'The Drive',
 				year: 2017,
-				link: 'https://www.thedrive.com/opinion/12489/analysts-are-wrong-about-why-millenials-arent-buying-harleys'	
+				link: 'https://www.thedrive.com/opinion/12489/analysts-are-wrong-about-why-millenials-arent-buying-harleys'
 			},
 			{
 				name: 'MarketWatch',
 				year: 2018,
-				link: 'https://www.marketwatch.com/story/millennials-are-killing-motorcycles-but-subscriptions-might-rev-sales-2018-04-13'	
+				link: 'https://www.marketwatch.com/story/millennials-are-killing-motorcycles-but-subscriptions-might-rev-sales-2018-04-13'
 			},
 			{
 				name: 'Fortune',
 				year: 2019,
-				link: 'https://fortune.com/2019/01/27/millennials-harley-davidson-motorcycles/'	
+				link: 'https://fortune.com/2019/01/27/millennials-harley-davidson-motorcycles/'
 			},
 			{
 				name: 'CNBC',
 				year: 2019,
-				link: 'https://www.cnbc.com/2019/01/25/actually-young-people-really-could-kill-harley-davidson.html'	
+				link: 'https://www.cnbc.com/2019/01/25/actually-young-people-really-could-kill-harley-davidson.html'
 			}
 		]
 	},
@@ -193,17 +299,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -219,23 +325,23 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
 	{
 		name: 'Cruises',
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		summary: 'Was it millenials or infecious disease?',
 		year: 2019,
 		image: 'passenger-ship.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
@@ -245,17 +351,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -271,17 +377,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -297,43 +403,44 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
 	{
 		name: 'Raisins',
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		summary: 'I wish this was dead.',
 		year: 2019,
 		image: 'grapes.png',
+		note: 'this is not dead enough can we kill this faster',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
-		verdict: 'good',
+		verdict: 'please',
 		type: 'product',
 		sources: [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -349,17 +456,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -375,17 +482,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -401,23 +508,23 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
 	{
 		name: '9-5 Workday',
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		summary: 'We wish this was true.',
 		year: 2019,
 		image: 'woman-office-worker-medium-skin-tone.png',
 		why: 'In porta odio ullamcorper risus tempor maximus. Donec semper lacus vitae odio laoreet euismod.',
@@ -427,17 +534,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	},
@@ -453,17 +560,17 @@ export const dataList = [
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			},
 			{
 				name: 'Source Here',
 				year: 2019,
-				link: 'https://www.google.com'	
+				link: 'https://www.google.com'
 			}
 		]
 	}

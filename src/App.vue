@@ -1,12 +1,14 @@
 <template>
-  <header>
-    <h1>Millennials Slay</h1>
-      <p>
-        A directory of industries, traditions and products that millenials have
-        supposedly <span>killed</span> slayed over the years.
-      </p>
-  </header>
-  <Cards />
+  <section>
+    <header>
+      <h1>Millennials Slay</h1>
+        <p>
+          A directory of industries, traditions and products that millenials have
+          supposedly <span>killed</span> slayed over the years.
+        </p>
+    </header>
+    <Cards />
+  </section>
 </template>
 
 <script>

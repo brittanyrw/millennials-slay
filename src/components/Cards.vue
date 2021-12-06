@@ -16,6 +16,7 @@
           <img v-bind:src="require('../assets/' + item.image)" v-bind:alt="item.name">
         </div>
         <p>{{ item.summary }}</p>
+        <p v-show="item.start && item.origin">Created in <span>{{ item.start }}</span>, killin' it since <span>{{ item.origin }}</span>.</p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" v-bind:key="index">
             {{ source.name }}
@@ -27,7 +28,7 @@
 </template>
 
 <script>
-import {dataList} from "../data/data";
+import { industries } from "../data/data";
 
 export default {
   name: "Cards",
@@ -37,14 +38,14 @@ export default {
   data() {
     return {
       type: "all",
-      items: dataList
+      items: industries
     };
   },
   computed: {
     filtered() {
-      function compare(itemOne, itemTwo) {
-        if (itemOne.name < itemTwo.name) return -1;
-        if (itemOne.name > itemTwo.name) return 1;
+      function compare(a, b) {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
         return 0;
       }
 
@@ -74,7 +75,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .filters p {
   display: inline-block;
@@ -104,7 +104,7 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 20px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 30px auto;
 }
 .card img {
@@ -118,11 +118,11 @@ li {
 }
 
 .card:nth-child(1n) .img-wrapper {
-  background-color: #fae6e9;
+  background-color: #e6f6fa;
 }
 
 .card:nth-child(2n) .img-wrapper {
-  background-color: #e6f6fa;
+  background-color: #fae6e9;
 }
 
 .card:nth-child(3n) .img-wrapper {
@@ -142,11 +142,12 @@ li {
   width: 75px;
 }
 
-@media screen and (min-width: 776px){
+@media screen and (min-width: 668px){
   .card-container {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media screen and (min-width: 992px){
   .card-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -165,5 +166,14 @@ li {
   padding: 5px 10px;
   border-radius: 3px;
   margin: 5px;
+}
+
+.card p {
+  line-height: 1.15;
+}
+
+.card span {
+  border-bottom: 1.5px solid #ccc;
+  text-decoration: none;
 }
 </style>
