@@ -16,10 +16,10 @@
           <img v-bind:src="require('../assets/' + item.image)" v-bind:alt="item.name">
         </div>
         <p>{{ item.summary }}</p>
-        <p v-show="item.start && item.origin">Created in <span>{{ item.start }}</span>, killin' it since <span>{{ item.origin }}</span>.</p>
+        <p v-show="item.origin && item.end">Created in <span>{{ item.origin }}</span>, killin' it since <span>{{ item.end }}</span>.</p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" v-bind:key="index">
-            {{ source.name }}
+            <a v-bind:href="`${source.link}`" target="_blank">{{ source.name }}</a>
           </li>
         </ul>
       </li>
