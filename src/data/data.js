@@ -1,7 +1,7 @@
 export const industries = [
   {
     name: "Doorbells",
-    image: "door.png", 
+    image: "door.png",
     type: "product",
     origin: {
       year: "in 1817",
@@ -9,6 +9,13 @@ export const industries = [
     },
     end: "",
     summary: "Texting > visits.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Fabric Softener",
@@ -38,6 +45,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "Nylon",
+        year: 2000,
+        link: "https://www.nylon.com/articles/why-did-j-crew-die-millennials/amp"
+      }
+    ]
   },
   {
     name: "Soda",
@@ -49,6 +63,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Stilettos",
@@ -60,6 +81,13 @@ export const industries = [
     },
     end: "",
     summary: "Chronic foot pain ftw.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Stoves",
@@ -71,6 +99,13 @@ export const industries = [
     },
     end: "",
     summary: "We only cook over open flames.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Toys",
@@ -82,6 +117,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "Florida Today",
+        year: 2000,
+        link: "https://amp.floridatoday.com/amp/445823002"
+      }
+    ]
   },
   {
     name: "Wine Corks",
@@ -93,6 +135,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Movies",
@@ -104,6 +153,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "The Olympics",
@@ -115,6 +171,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "Esquire",
+        year: 2000,
+        link: "https://www.esquire.com/sports/news/a47918/plummeting-olympics/"
+      }
+    ]
   },
   {
     name: "Mayonnaise",
@@ -126,6 +189,18 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "Philadelphia Magazine",
+        year: 2018,
+        link: "https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/#8Qe1kpK6vsPplpl9.99"
+      },
+      {
+        name: "New Zealand Herald",
+        year: 2001,
+        link: "https://www.nzherald.co.nz/lifestyle/claims-millennials-killed-mayonnaise-sparks-fury/TOEPHXA7EGE6VBJGV6FESTTML4/"
+      }
+    ]
   },
   {
     name: "Large Turkeys",
@@ -137,6 +212,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Sitcoms",
@@ -148,6 +230,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Gyms",
@@ -193,6 +282,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "American Dream",
@@ -204,6 +300,13 @@ export const industries = [
     },
     end: "",
     summary: "Why support something you can never achieve?",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Signatures",
@@ -215,6 +318,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Oil",
@@ -226,6 +336,13 @@ export const industries = [
     },
     end: "",
     summary: "It would be a good thing??",
+    sources: [
+      {
+        name: "RigZone",
+        year: 2019,
+        link: "https://www.rigzone.com/news/wire/oil_has_a_millennial_problem-02-aug-2019-159469-article/?amp"
+      }
+    ]
   },
   {
     name: "Trees",
@@ -237,6 +354,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Brunch",
@@ -248,6 +372,13 @@ export const industries = [
     },
     end: "",
     summary: "Millennials are the ones holding up this industry tbh.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Running",
@@ -259,6 +390,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Baby Names",
@@ -270,6 +408,13 @@ export const industries = [
     },
     end: 2015,
     summary: "No babies have been named since.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Office Dress Codes",
@@ -281,6 +426,13 @@ export const industries = [
     },
     end: "",
     summary: "Alright fine, they can have this one.",
+    sources: [
+      {
+        name: "F Newsmagazine",
+        year: 2019,
+        link: "https://fnewsmagazine.com/2019/04/millennials-killed-professionalism/"
+      }
+    ]
   },
   {
     name: "Real Estate Industry",
@@ -293,6 +445,13 @@ export const industries = [
     end: "",
     summary:
       "If we could still get a house for three pennies and a horse we'd love this industry too.",
+      sources: [
+        {
+          name: "",
+          year: 2000,
+          link: ""
+        }
+      ]
   },
   {
     name: "European Union",
@@ -304,7 +463,13 @@ export const industries = [
     },
     end: "",
     summary: "World domination, let's go.",
-    
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Anti-aging Industry",
@@ -316,6 +481,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Avacado",
@@ -327,6 +499,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Bars of Soap",
@@ -338,6 +517,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Cable TV",
@@ -349,6 +535,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "We Forum",
+        year: 2018,
+        link: "https://www.weforum.org/agenda/2018/05/consumers-will-spend-more-time-using-online-media-than-watching-tv-in-2018/"
+      }
+    ]
   },
   {
     name: "Canned Tuna",
@@ -360,6 +553,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Cars",
@@ -371,6 +571,13 @@ export const industries = [
     },
     end: "",
     summary: "Idk about ya'll but I teleport everywhere.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Designer Handbags",
@@ -382,6 +589,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Diamonds",
@@ -393,6 +607,13 @@ export const industries = [
     },
     end: "",
     summary: "We're broke. Also shady mining.",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Football",
@@ -404,6 +625,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Vacations",
@@ -415,6 +643,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Hotels",
@@ -426,6 +661,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "American Cheese",
@@ -483,6 +725,7 @@ export const industries = [
       link: ""
     },
     end: "",
+    summary: "Those gosh darn millennials with their happy marriages.",
     sources: [
       {
         name: "BBC",
@@ -636,7 +879,6 @@ export const industries = [
   },
   {
     name: "Cruises",
-
     image: "passenger-ship.png",
     type: "activity",
     origin: {
@@ -897,6 +1139,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Bars",
@@ -908,6 +1157,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Chain Restaurants",
@@ -919,6 +1175,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "Money Wise",
+        year: 2000,
+        link: "https://moneywise.com/life/food/millennials-are-killing-off-these-restaurant-chains"
+      }
+    ]
   },
   {
     name: "Canadian Tourism",
@@ -930,6 +1193,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
   {
     name: "Movie Theaters",
@@ -941,6 +1211,13 @@ export const industries = [
     },
     end: "",
     summary: "",
+    sources: [
+      {
+        name: "",
+        year: 2000,
+        link: ""
+      }
+    ]
   },
 
 ];

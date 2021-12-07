@@ -39,7 +39,7 @@
         <img :src="require('../assets/smirking-face.png')" alt="Smirking face emoji" />
       </header>
       <ul>
-        <li>Gen Z article (2019)</li>
+        <li><a href="https://www.inputmag.com/style/has-gen-z-killed-skinny-jeans-millennials-tiktok-fashion-drama/amp">Has Gen Z Killed Skinny Jeans? (2021)</a></li>
         <li>Gen Z article (2019)</li>
       </ul>
     </div>
