@@ -13,27 +13,36 @@
       <li v-for="item in filtered" :key="item.name" class="card">
         <h3>{{ item.name }}</h3>
         <div class="img-wrapper">
-          <img
-            :src="require('../assets/' + item.image)"
-            :alt="item.name"
-          />
+          <img :src="require('../assets/' + item.image)" :alt="item.name" />
         </div>
         <p>{{ item.summary }}</p>
         <!-- <p v-show="item.origin.year && item.end"> -->
         <p>
-          Created <span>{{ item.origin.year }}</span
+          Created
+          <span class="origin-link"
+            ><a :href="`${item.origin.link}`" target="_blank">{{
+              item.origin.year
+            }}</a></span
           >, killin' it since <span>{{ item.end }}</span
           >.
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
-            <a :href="`${source.link}`" target="_blank">{{
-              source.name
-            }}</a>
+            <a :href="`${source.link}`" target="_blank">{{ source.name }}</a>
           </li>
         </ul>
       </li>
     </ul>
+    <div>
+      <header>
+        <h3>Gen Z, they're comin' for ya...</h3>
+        <img :src="require('../assets/smirking-face.png')" alt="Smirking face emoji" />
+      </header>
+      <ul>
+        <li>Gen Z article (2019)</li>
+        <li>Gen Z article (2019)</li>
+      </ul>
+    </div>
   </section>
 </template>
 
@@ -91,6 +100,20 @@ export default {
   margin-right: 10px;
 }
 
+.origin-link a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.card span {
+  border-bottom: 1.5px solid #ccc;
+  text-decoration: none;
+}
+
+.origin-link a:hover {
+  font-weight: bold;
+}
+
 button {
   border: 1.5px solid #ccc;
   padding: 5px 10px;
@@ -99,7 +122,8 @@ button {
   background-color: white;
 }
 
-button:hover, button:focus {
+button:hover,
+button:focus {
   border: 2px solid #2c3e50;
 }
 
@@ -192,10 +216,5 @@ li {
 
 .card p {
   line-height: 1.5;
-}
-
-.card span {
-  border-bottom: 1.5px solid #ccc;
-  text-decoration: none;
 }
 </style>

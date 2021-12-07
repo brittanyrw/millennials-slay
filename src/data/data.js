@@ -1,14 +1,14 @@
 export const industries = [
   {
     name: "Doorbells",
-    image: "door.png",
+    image: "door.png", 
     type: "product",
     origin: {
       year: "in 1817",
       link: "https://en.wikipedia.org/wiki/Doorbell#:~:text=William%20Murdoch%2C%20a%20Scottish%20inventor%2C%20installed%20a%20number%20of%20his%20own%20innovations%20in%20his%20house%2C%20built%20in%20Birmingham%20in%201817%3B%20one%20of%20these%20was%20a%20loud%20doorbell%2C%20that%20worked%20using%20a%20piped%20system%20of%20compressed%20air."
     },
     end: "",
-    summary: "",
+    summary: "Texting > visits.",
   },
   {
     name: "Fabric Softener",
@@ -59,7 +59,7 @@ export const industries = [
       link: "https://en.wikipedia.org/wiki/Stiletto_heel#:~:text=French%20designers%20such%20as%20Roger%20Vivier%20and%20Andr%C3%A9%20Perugia%20popularized%20the%20stiletto%20design%20in%20the%201950s%2C%20which%20quickly%20spread%20across%20Europe%20and%20the%20United%20States."
     },
     end: "",
-    summary: "",
+    summary: "Chronic foot pain ftw.",
   },
   {
     name: "Stoves",
@@ -70,7 +70,7 @@ export const industries = [
       link: "https://en.wikipedia.org/wiki/Stove#:~:text=Traditionally%20these%20have%20been%20fueled%20by%20wood%2C%20and%20one%20of%20the%20earliest%20recorded%20instances%20of%20a%20wood%2Dburning%20kitchen%20stove%20was%20the%20so%2Dcalled%20stew%20stove%20(developed%20in%201735%20by%20the%20French%20designer%20Fran%C3%A7ois%20de%20Cuvilli%C3%A9s%20and%20officially%20termed%20the%20Castrol%20Stove)."
     },
     end: "",
-    summary: "Its true we only cook over open flames.",
+    summary: "We only cook over open flames.",
   },
   {
     name: "Toys",
@@ -154,12 +154,12 @@ export const industries = [
     image: "woman-lifting-weights-medium-dark-skin-tone.png",
     type: "location",
     origin: {
-      year: 1869,
+      year: "in 1869",
       link: ""
     },
     end: "2016",
     summary:
-      "How dare millenials prefer tech-savvy, updated specialized facilities.",
+      "How dare millennials prefer tech-savvy, updated specialized facilities.",
     sources: [
       {
         name: "ABC 10",
@@ -188,8 +188,8 @@ export const industries = [
     image: "newspaper.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "in 1566",
+      link: "https://en.wikipedia.org/wiki/History_of_newspaper_publishing#:~:text=The%20modern%20newspaper%20is%20a%20European%20invention.%5B1%5D%20The%20oldest%20direct%20handwritten%20news%20sheets%20that%20circulated%20widely%20in%20Venice%20as%20early%20as%201566."
     },
     end: "",
     summary: "",
@@ -210,8 +210,8 @@ export const industries = [
     image: "fountain-pen.png",
     type: "traditions",
     origin: {
-      year: "",
-      link: ""
+      year: "in 3500 BC",
+      link: "https://www.docusign.com/blog/quill-stylus-history-signature-celebration-national-esign-day#:~:text=3500%20BC%3A%20The%20first%20signature,be%20pressed%20into%20wet%20clay."
     },
     end: "",
     summary: "",
@@ -221,8 +221,8 @@ export const industries = [
     image: "oil-drum.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "in 1859",
+      link: "https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/pennsylvaniaoilindustry.html#:~:text=On%20this%20site%20Edwin%20Drake,to%20treat%20rheumatism%20and%20sprains."
     },
     end: "",
     summary: "It would be a good thing??",
@@ -232,8 +232,8 @@ export const industries = [
     image: "deciduous-tree.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "385 million years ago",
+      link: "https://en.wikipedia.org/wiki/Tree#:~:text=The%20first%20tree%20may%20have,was%20the%20earliest%20known%20tree."
     },
     end: "",
     summary: "",
@@ -243,19 +243,19 @@ export const industries = [
     image: "pancakes.png",
     type: "",
     origin: {
-      year: "",
-      link: ""
+      year: "in 1895",
+      link: "https://en.wikipedia.org/wiki/Brunch#:~:text=the%20term%20was%20coined%20in%20Britain%20in%201895%20to%20describe%20a%20Sunday%20meal%20for%20%22Saturday%2Dnight%20carousers%22"
     },
     end: "",
-    summary: "Millenials are the ones holding up this industry tbh.",
+    summary: "Millennials are the ones holding up this industry tbh.",
   },
   {
     name: "Running",
     image: "person-running-medium-skin-tone.png",
     type: "activity",
     origin: {
-      year: "",
-      link: ""
+      year: "in 632 BCE",
+      link: "https://en.wikipedia.org/wiki/Running#:~:text=Records%20of%20competitive%20racing%20date%20back%20to%20the%20Tailteann%20Games%20in%20Ireland%20between%20632%20BCE%20and%201171%20BCE%2C%5B6%5D%5B7%5D%5B8%5D%20while%20the%20first%20recorded%20Olympic%20Games%20took%20place%20in%20776%20BCE.%20Running%20has%20been%20described%20as%20the%20world%27s%20most%20accessible%20sport.%5B9%5D"
     },
     end: "",
     summary: "",
@@ -276,19 +276,19 @@ export const industries = [
     image: "t-shirt.png",
     type: "tradition",
     origin: {
-      year: "",
-      link: ""
+      year: "in the early 20th century",
+      link: "https://www.insider.com/how-the-way-we-dress-for-work-has-changed-2019-2#throughout-the-early-20th-century-offices-were-very-formal-women-wore-traditional-gowns-and-men-wore-full-suits-1"
     },
     end: "",
     summary: "Alright fine, they can have this one.",
   },
   {
-    name: "Real Estate",
+    name: "Real Estate Industry",
     image: "house-with-garden.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "early 1800s",
+      link: "https://www.shermanbridge.com/blog/history-of-real-estate-investing/#:~:text=The%20real%20estate%20industry%20traces,acquisition%20made%20by%20the%20U.S."
     },
     end: "",
     summary:
@@ -299,8 +299,8 @@ export const industries = [
     image: "flag-european-union.png",
     type: "location",
     origin: {
-      year: "",
-      link: ""
+      year: "in 1993",
+      link: "https://en.wikipedia.org/wiki/European_Union#:~:text=The%20union%20and%20EU%20citizenship%20were%20established%20when%20the%20Maastricht%20Treaty%20came%20into%20force%20in%201993."
     },
     end: "",
     summary: "World domination, let's go.",
@@ -311,8 +311,8 @@ export const industries = [
     image: "woman-white-hair.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "around 51 BCE",
+      link: "https://intothegloss.com/2015/03/history-of-anti-aging/"
     },
     end: "",
     summary: "",
@@ -322,8 +322,8 @@ export const industries = [
     image: "avocado.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "9,000 years ago",
+      link: "https://en.wikipedia.org/wiki/Avocado#:~:text=The%20oldest%20discovery%20of%20an%20avocado%20pit%20comes%20from%20Coxcatlan%20Cave%2C%20dating%20from%20around%209%2C000%20to%2010%2C000%20years%20ago."
     },
     end: "",
     summary: "",
@@ -333,8 +333,8 @@ export const industries = [
     image: "soap.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "in the late 18th century",
+      link: "https://en.wikipedia.org/wiki/Soap#:~:text=Industrially%20manufactured%20bar%20soaps%20became%20available%20in%20the%20late%2018th%20century%2C%20as%20advertising%20campaigns%20in%20Europe%20and%20America%20promoted%20popular%20awareness%20of%20the%20relationship%20between%20cleanliness%20and%20health"
     },
     end: "",
     summary: "",
@@ -344,8 +344,8 @@ export const industries = [
     image: "television.png",
     type: "product",
     origin: {
-      year: "",
-      link: ""
+      year: "in 1950",
+      link: "https://en.wikipedia.org/wiki/Cable_television#:~:text=Cable%20television%5B5%5D%20began%20in%20the%20United%20States%20as%20a%20commercial%20business%20in%201950%2C%20although%20there%20were%20small%2Dscale%20systems%20by%20hobbyists%20in%20the%201940s."
     },
     end: "",
     summary: "",
@@ -370,7 +370,7 @@ export const industries = [
       link: ""
     },
     end: "",
-    summary: "",
+    summary: "Idk about ya'll but I teleport everywhere.",
   },
   {
     name: "Designer Handbags",
@@ -392,7 +392,7 @@ export const industries = [
       link: ""
     },
     end: "",
-    summary: "Stop being shady in how you get them and maybe they could stay.",
+    summary: "We're broke. Also shady mining.",
   },
   {
     name: "Football",
@@ -812,7 +812,7 @@ export const industries = [
       link: ""
     },
     end: "",
-    summary: "",
+    summary: "Why do we need to touch?",
     sources: [
       {
         name: "Source Here",
@@ -941,7 +941,7 @@ export const industries = [
     },
     end: "",
     summary: "",
-  }
+  },
 
 ];
 
