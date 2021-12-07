@@ -10,16 +10,26 @@
     </div>
 
     <ul class="card-container">
-      <li v-for="item in filtered" v-bind:key="item.name" class="card">
+      <li v-for="item in filtered" :key="item.name" class="card">
         <h3>{{ item.name }}</h3>
         <div class="img-wrapper">
-          <img v-bind:src="require('../assets/' + item.image)" v-bind:alt="item.name">
+          <img
+            :src="require('../assets/' + item.image)"
+            :alt="item.name"
+          />
         </div>
         <p>{{ item.summary }}</p>
-        <p v-show="item.origin && item.end">Created in <span>{{ item.origin }}</span>, killin' it since <span>{{ item.end }}</span>.</p>
+        <!-- <p v-show="item.origin.year && item.end"> -->
+        <p>
+          Created <span>{{ item.origin.year }}</span
+          >, killin' it since <span>{{ item.end }}</span
+          >.
+        </p>
         <ul class="sources">
-          <li v-for="(source, index) in item.sources" v-bind:key="index">
-            <a v-bind:href="`${source.link}`" target="_blank">{{ source.name }}</a>
+          <li v-for="(source, index) in item.sources" :key="index">
+            <a :href="`${source.link}`" target="_blank">{{
+              source.name
+            }}</a>
           </li>
         </ul>
       </li>
@@ -38,7 +48,7 @@ export default {
   data() {
     return {
       type: "all",
-      items: industries
+      items: industries,
     };
   },
   computed: {
@@ -55,23 +65,23 @@ export default {
       return this.items;
     },
     product() {
-      return this.filter('product');
+      return this.filter("product");
     },
     tradition() {
-      return this.filter('tradition');
+      return this.filter("tradition");
     },
     activity() {
-      return this.filter('activity');
+      return this.filter("activity");
     },
     location() {
-      return this.filter('location');
+      return this.filter("location");
     },
   },
   methods: {
-    filter(type){
-      return this.items.filter((item) => item.type == type)
-    }
-  }
+    filter(type) {
+      return this.items.filter((item) => item.type == type);
+    },
+  },
 };
 </script>
 
@@ -79,6 +89,18 @@ export default {
 .filters p {
   display: inline-block;
   margin-right: 10px;
+}
+
+button {
+  border: 1.5px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px;
+  background-color: white;
+}
+
+button:hover, button:focus {
+  border: 2px solid #2c3e50;
 }
 
 span {
@@ -111,10 +133,10 @@ li {
   width: 100%;
 }
 .img-wrapper {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card:nth-child(1n) .img-wrapper {
@@ -142,13 +164,13 @@ li {
   width: 75px;
 }
 
-@media screen and (min-width: 668px){
+@media screen and (min-width: 668px) {
   .card-container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   .card-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -169,7 +191,7 @@ li {
 }
 
 .card p {
-  line-height: 1.15;
+  line-height: 1.5;
 }
 
 .card span {
