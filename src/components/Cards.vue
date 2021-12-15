@@ -13,7 +13,7 @@
       <li v-for="item in filtered" :key="item.name" class="card">
         <h3>{{ item.name }}</h3>
         <div class="img-wrapper">
-          <img :src="require('../assets/' + item.image)" :alt="item.name" />
+          <img :src="require(`../assets/${item.image}.png`)" :alt="item.name" />
         </div>
         <p>{{ item.summary }}</p>
         <!-- <p v-show="item.origin.year && item.end"> -->
@@ -23,8 +23,8 @@
             ><a :href="`${item.origin.link}`" target="_blank">{{
               item.origin.year
             }}</a></span
-          >, killin' it since <span>{{ item.end }}</span
-          >.
+          >, killin' it since <a :href="`${earliestSource(item.sources).link}`" target="_blank"> <span>{{ earliestSource(item.sources).year }}</span
+          ></a>.
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
@@ -36,10 +36,18 @@
     <div>
       <header>
         <h3>Gen Z, they're comin' for ya...</h3>
-        <img :src="require('../assets/smirking-face.png')" alt="Smirking face emoji" />
+        <img
+          :src="require('../assets/smirking-face.png')"
+          alt="Smirking face emoji"
+        />
       </header>
       <ul>
-        <li><a href="https://www.inputmag.com/style/has-gen-z-killed-skinny-jeans-millennials-tiktok-fashion-drama/amp">Has Gen Z Killed Skinny Jeans? (2021)</a></li>
+        <li>
+          <a
+            href="https://www.inputmag.com/style/has-gen-z-killed-skinny-jeans-millennials-tiktok-fashion-drama/amp"
+            >Has Gen Z Killed Skinny Jeans? (2021)</a
+          >
+        </li>
         <li>Gen Z article (2019)</li>
       </ul>
     </div>
@@ -89,6 +97,12 @@ export default {
   methods: {
     filter(type) {
       return this.items.filter((item) => item.type == type);
+    },
+    earliestSource(sources) {
+      const earliest = sources.reduce(function (res, obj) {
+        return obj.year < res.year ? obj : res;
+      });
+      return earliest;
     },
   },
 };
@@ -161,6 +175,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+li a:hover {
+  color: black;
 }
 
 .card:nth-child(1n) .img-wrapper {

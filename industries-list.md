@@ -35,7 +35,6 @@ This is a list of industries, products, traditions and activities that need to b
   - https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html?noredirect=on&utm_term=.5e8aa9b8880b
 - Oil
 - Postcards
-- Print News
 - Raisins
 - Razors
 - Soda
@@ -101,13 +100,23 @@ This is a list of industries, products, traditions and activities that need to b
 - Applebees
 - Hooters
 - J Crew
-- McDonalds
+- McDonalds *
 - Canadian tourism
 - Hotels
-- Buffalo Wild Wings
+- Buffalo Wild Wings * 
 - The European Union
 - Bars
 - TGI Fridays
+
+
+- serendipity 
+http://guestofaguest.com/new-york/things-we-love/have-millennials-killed-serendipity
+
+
+
+
+
+
 
 ## Articles
 - https://www.theatlantic.com/ideas/archive/2018/12/stop-blaming-millennials-killing-economy/577408/
