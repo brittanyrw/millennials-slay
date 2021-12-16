@@ -13,7 +13,10 @@
       <li v-for="item in filtered" :key="item.name" class="card">
         <h3>{{ item.name }}</h3>
         <div class="img-wrapper">
-          <img :src="require(`../assets/${item.image}.png`)" :alt="`${unSlugify(item.image)} emoji`" />
+          <img
+            :src="require(`../assets/${item.image}.png`)"
+            :alt="`${unSlugify(item.image)} emoji`"
+          />
         </div>
         <p>{{ item.summary }}</p>
         <!-- <p v-show="item.origin.year && item.end"> -->
@@ -24,9 +27,11 @@
               item.origin.year
             }}</a></span
           >, killin' it since
-          <span class="source-start"><a :href="`${earliestSource(item.sources).link}`" target="_blank">
-            {{ earliestSource(item.sources).year }}</a
-          ></span>.
+          <span class="source-start"
+            ><a :href="`${earliestSource(item.sources).link}`" target="_blank">
+              {{ earliestSource(item.sources).year }}</a
+            ></span
+          >.
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
@@ -35,9 +40,9 @@
         </ul>
       </li>
     </ul>
-    <div>
+    <div class="gen-z">
       <header>
-        <h3>Gen Z, they're comin' for ya...</h3>
+        <h3>Gen Z, they're comin' for ya too...</h3>
         <img
           :src="require('../assets/smirking-face.png')"
           alt="Smirking face emoji"
@@ -46,12 +51,23 @@
       <ul>
         <li>
           <a
-            href="https://www.inputmag.com/style/has-gen-z-killed-skinny-jeans-millennials-tiktok-fashion-drama/amp"
+            href="https://www.inputmag.com/style/has-gen-z-killed-skinny-jeans-millennials-tiktok-fashion-drama/amp" target="_blank"
             >Has Gen Z Killed Skinny Jeans? (2021)</a
           >
         </li>
-        <li>Gen Z article (2019)</li>
-        <li><a href="https://financialpost.com/personal-finance/young-money/millennials-are-old-news-now-its-gen-zs-turn-to-kill-industries">Millennials are old news - now it's Gen Z's turn to kill industries (2018)</a></li>
+        <li>
+          <a
+            href="https://www.dailymail.co.uk/femail/food/article-10157233/Are-Gen-Z-killing-Brussels-sprouts.html" target="_blank"
+            >Are Gen Z killing Brussels sprouts? (2021)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://financialpost.com/personal-finance/young-money/millennials-are-old-news-now-its-gen-zs-turn-to-kill-industries" target="_blank"
+            >Millennials are old news - now it's Gen Z's turn to kill industries
+            (2018)</a
+          >
+        </li>
       </ul>
     </div>
   </section>
@@ -135,7 +151,8 @@ export default {
   text-decoration: none;
 }
 
-.origin-link a:hover, .source-start a:hover {
+.origin-link a:hover,
+.source-start a:hover {
   font-weight: bold;
 }
 
@@ -250,5 +267,23 @@ li a:hover {
 
 .card p {
   line-height: 1.5;
+}
+
+.gen-z header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gen-z header img {
+  height: 20px;
+}
+
+.gen-z ul li {
+  display: inline-block;
+  font-size: 13px;
+  border: 1.5px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px;
 }
 </style>

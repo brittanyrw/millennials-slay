@@ -7,12 +7,17 @@ export const industries = [
       year: "in 1817",
       link: "https://en.wikipedia.org/wiki/Doorbell#:~:text=William%20Murdoch%2C%20a%20Scottish%20inventor%2C%20installed%20a%20number%20of%20his%20own%20innovations%20in%20his%20house%2C%20built%20in%20Birmingham%20in%201817%3B%20one%20of%20these%20was%20a%20loud%20doorbell%2C%20that%20worked%20using%20a%20piped%20system%20of%20compressed%20air.",
     },
-    summary: "",
+    summary: "Apparently startling someone in their home is preferred over giving a gental heads up via text.",
     sources: [
+      {
+        name: "Wall Street Journal",
+        year: 2017,
+        link: "https://www.wsj.com/articles/ask-not-for-whom-the-doorbell-tolls-they-wont-answer-it-1503864316",
+      },
       {
         name: "BuzzFeed",
         year: 2019,
-        link: "buzzfeed.com/aliciabarron/tk-hilarious-reasons-why-millennials-are-now-terrified-to",
+        link: "https://buzzfeed.com/aliciabarron/tk-hilarious-reasons-why-millennials-are-now-terrified-to",
       },
       {
         name: "Today",
@@ -55,7 +60,7 @@ export const industries = [
     sources: [
       {
         name: "Nylon",
-        year: 2000,
+        year: 2017,
         link: "https://www.nylon.com/articles/why-did-j-crew-die-millennials/amp",
       },
       {
@@ -138,7 +143,7 @@ export const industries = [
     sources: [
       {
         name: "Florida Today",
-        year: 2000,
+        year: 2018,
         link: "https://amp.floridatoday.com/amp/445823002",
       },
     ],
@@ -200,11 +205,11 @@ export const industries = [
       year: "in 776 BC",
       link: "https://en.wikipedia.org/wiki/Ancient_Olympic_Games#:~:text=The%20first%20Olympic%20Games%20are%20traditionally%20dated%20to%20776%20BC.",
     },
-    summary: "",
+    summary: "Did not know we had the ability to kill this one ngl.",
     sources: [
       {
         name: "Esquire",
-        year: 2000,
+        year: 2016,
         link: "https://www.esquire.com/sports/news/a47918/plummeting-olympics/",
       },
       {
@@ -390,7 +395,7 @@ export const industries = [
       year: "in 632 BCE",
       link: "https://en.wikipedia.org/wiki/Running#:~:text=Records%20of%20competitive%20racing%20date%20back%20to%20the%20Tailteann%20Games%20in%20Ireland%20between%20632%20BCE%20and%201171%20BCE%2C%5B6%5D%5B7%5D%5B8%5D%20while%20the%20first%20recorded%20Olympic%20Games%20took%20place%20in%20776%20BCE.%20Running%20has%20been%20described%20as%20the%20world%27s%20most%20accessible%20sport.%5B9%5D",
     },
-    summary: "",
+    summary: "Too busy running from the cops to do it for fun.",
     sources: [
       {
         name: "Wall Street Journal",
@@ -524,7 +529,7 @@ export const industries = [
       year: "9,000 years ago",
       link: "https://en.wikipedia.org/wiki/Avocado#:~:text=The%20oldest%20discovery%20of%20an%20avocado%20pit%20comes%20from%20Coxcatlan%20Cave%2C%20dating%20from%20around%209%2C000%20to%2010%2C000%20years%20ago.",
     },
-    summary: "",
+    summary: "My bad, that toast is lit though.",
     sources: [
       {
         name: "Esquire",
@@ -945,7 +950,7 @@ export const industries = [
       year: "in 1831",
       link: "https://en.wikipedia.org/wiki/Cruise_ship#:~:text=Italy%2C%20a%20traditional%20focus%20of%20the%20Grand%20Tour%2C%20offered%20an%20early%20cruise%20experience%20on%20the%20Francesco%20I%2C%20flying%20the%20flag%20of%20the%20Kingdom%20of%20the%20Two%20Sicilies.%20Built%20in%201831%2C%20the%20Francesco%20I%20sailed%20from%20Naples%20in%20early%20June%201833%2C%20preceded%20by%20an%20advertising%20campaign.",
     },
-    summary: "Was it millenials or infecious disease?",
+    summary: "Was it millenials or infectious disease?",
     sources: [
       {
         name: "Caribbean News Service",
@@ -1122,7 +1127,7 @@ export const industries = [
       year: "???",
       link: "",
     },
-    summary: "",
+    summary: "If Furbies are discountinued why have toys at all?",
     sources: [
       {
         name: "Business Insider",
