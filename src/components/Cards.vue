@@ -13,7 +13,7 @@
       <li v-for="item in filtered" :key="item.name" class="card">
         <h3>{{ item.name }}</h3>
         <div class="img-wrapper">
-          <img :src="require(`../assets/${item.image}.png`)" :alt="item.name" />
+          <img :src="require(`../assets/${item.image}.png`)" :alt="`${unSlugify(item.image)} emoji`" />
         </div>
         <p>{{ item.summary }}</p>
         <!-- <p v-show="item.origin.year && item.end"> -->
@@ -23,8 +23,10 @@
             ><a :href="`${item.origin.link}`" target="_blank">{{
               item.origin.year
             }}</a></span
-          >, killin' it since <a :href="`${earliestSource(item.sources).link}`" target="_blank"> <span>{{ earliestSource(item.sources).year }}</span
-          ></a>.
+          >, killin' it since
+          <span class="source-start"><a :href="`${earliestSource(item.sources).link}`" target="_blank">
+            {{ earliestSource(item.sources).year }}</a
+          ></span>.
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
@@ -49,6 +51,7 @@
           >
         </li>
         <li>Gen Z article (2019)</li>
+        <li><a href="https://financialpost.com/personal-finance/young-money/millennials-are-old-news-now-its-gen-zs-turn-to-kill-industries">Millennials are old news - now it's Gen Z's turn to kill industries (2018)</a></li>
       </ul>
     </div>
   </section>
@@ -104,6 +107,14 @@ export default {
       });
       return earliest;
     },
+    unSlugify(imageName) {
+      var text = imageName.split("-");
+      return text
+        .map(function (word) {
+          return word.charAt(0).toUpperCase() + word.substring(1).toLowerCase();
+        })
+        .join(" ");
+    },
   },
 };
 </script>
@@ -124,7 +135,7 @@ export default {
   text-decoration: none;
 }
 
-.origin-link a:hover {
+.origin-link a:hover, .source-start a:hover {
   font-weight: bold;
 }
 
