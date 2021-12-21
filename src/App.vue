@@ -1,39 +1,39 @@
 <template>
-  <section>
-    <header>
-      <h1>Millennials Slay</h1>
-        <p>
-          A directory of industries, traditions and products that millenials have
-          supposedly <span class="strikethrough">killed</span> slayed over the years.
-        </p>
-    </header>
-    <Cards />
-  </section>
+  <Main />
 </template>
 
 <script>
-import Cards from './components/Cards.vue'
+import Main from "./components/Main.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Cards
-  }
-}
+    Main,
+  },
+};
 </script>
 
-<style>
+<style lang="scss">
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+$black: #2c3e50;
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $black;
   font-size: 16px;
+  max-width: 2000px;
+  margin: auto;
+  border: 1px solid $black;
 }
 
-.strikethrough {
-  text-decoration: line-through;
-}
 </style>

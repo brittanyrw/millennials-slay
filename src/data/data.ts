@@ -1,4 +1,102 @@
-export const industries = [
+export interface Industry {
+  name: string;
+  image: string;
+  type: Type;
+  origin: Origin;
+  summary: string;
+  sources: Source[];
+}
+
+export type Type = "product" | "activity" | "tradition" | "location";
+
+export interface Origin {
+  year: string;
+  link: string;
+}
+
+export interface Source {
+  name: Media;
+  year: number;
+  link: string;
+}
+
+export type Media =
+  | "ABC 10"
+  | "Apartment Therapy"
+  | "The Atlantic"
+  | "Bloomberg"
+  | "Business Insider"
+  | "Bustle"
+  | "BuzzFeed"
+  | "Caribbean News Service"
+  | "CB Insights"
+  | "CBS News"
+  | "CNBC"
+  | "CNET"
+  | "CS Monitor"
+  | "The Cut"
+  | "The Daily Beast"
+  | "The Drive"
+  | "E-Merchant Broker"
+  | "Elle"
+  | "Entrepreneur"
+  | "Esquire"
+  | "European Council on Foreign Relations"
+  | "F Newsmagazine"
+  | "Fast Company"
+  | "Florida Today"
+  | "Forbes"
+  | "Fortune"
+  | "Good Housekeeping"
+  | "Hotel Executive"
+  | "Houston Chronicle"
+  | "HR Technologist"
+  | "HuffPost"
+  | "Inc"
+  | "Inside Out"
+  | "Live Mint"
+  | "MarketWatch"
+  | "Marketscale"
+  | "Mashable"
+  | "Metro"
+  | "Money and Markets"
+  | "Moneywise"
+  | "NBC News"
+  | "New Boston Post"
+  | "New York Times"
+  | "New Zealand Herald"
+  | "Notable Life"
+  | "NY Post"
+  | "Nylon"
+  | "Observer"
+  | "OilPrice"
+  | "Philadelphia"
+  | "PR Week"
+  | "Purse Blog"
+  | "Refinery29"
+  | "Restaruant Business Online"
+  | "Reuters"
+  | "RigZone"
+  | "Savings"
+  | "Southern Living"
+  | "Sportico"
+  | "The Streamable"
+  | "TechCrunch"
+  | "ThoughtMatter"
+  | "Time"
+  | "Today"
+  | "Transfers Magazine"
+  | "The Tyee"
+  | "USA Today"
+  | "Venture Beat"
+  | "View the Vibe"
+  | "Wall Street Journal"
+  | "Washington Post"
+  | "We Forum"
+  | "Willamette Week"
+  | "Yahoo! News";
+
+export const industries: Industry[] = [
   {
     name: "Doorbells",
     image: "door",
@@ -7,7 +105,8 @@ export const industries = [
       year: "in 1817",
       link: "https://en.wikipedia.org/wiki/Doorbell#:~:text=William%20Murdoch%2C%20a%20Scottish%20inventor%2C%20installed%20a%20number%20of%20his%20own%20innovations%20in%20his%20house%2C%20built%20in%20Birmingham%20in%201817%3B%20one%20of%20these%20was%20a%20loud%20doorbell%2C%20that%20worked%20using%20a%20piped%20system%20of%20compressed%20air.",
     },
-    summary: "Apparently startling someone in their home is preferred over giving a gental heads up via text.",
+    summary:
+      "Apparently startling someone in their home is preferred over giving a gental heads up via text.",
     sources: [
       {
         name: "Wall Street Journal",
@@ -139,7 +238,7 @@ export const industries = [
       year: "in prehistoric times",
       link: "https://en.wikipedia.org/wiki/Toy#:~:text=The%20origin%20of%20toys%20is%20prehistoric%3B%20dolls%20representing%20infants%2C%20animals%2C%20and%20soldiers%2C%20as%20well%20as%20representations%20of%20tools%20used%20by%20adults%20are%20readily%20found%20at%20archaeological%20sites.",
     },
-    summary: "",
+    summary: "If Furbies are discountinued why have toys at all?",
     sources: [
       {
         name: "Florida Today",
@@ -230,7 +329,7 @@ export const industries = [
     summary: "",
     sources: [
       {
-        name: "Philadelphia Magazine",
+        name: "Philadelphia",
         year: 2018,
         link: "https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/#8Qe1kpK6vsPplpl9.99",
       },
@@ -288,7 +387,6 @@ export const industries = [
       year: "over 3000 years ago",
       link: "https://en.wikipedia.org/wiki/Gym#:~:text=The%20first%20recorded%20gymnasiums%20date%20back%20to%20over%203000%20years%20ago%20in%20ancient%20Persia%2C%20where%20they%20were%20known%20as%20zurkhaneh%2C%20areas%20that%20encouraged%20physical%20fitness.",
     },
-    end: "2016",
     summary:
       "How dare millennials prefer tech-savvy, updated specialized facilities.",
     sources: [
@@ -373,7 +471,7 @@ export const industries = [
   {
     name: "Brunch",
     image: "pancakes",
-    type: "",
+    type: "tradition",
     origin: {
       year: "in 1895",
       link: "https://en.wikipedia.org/wiki/Brunch#:~:text=the%20term%20was%20coined%20in%20Britain%20in%201895%20to%20describe%20a%20Sunday%20meal%20for%20%22Saturday%2Dnight%20carousers%22",
@@ -412,7 +510,6 @@ export const industries = [
       year: "30,000 years ago",
       link: "https://www.nationalgeographic.com/science/article/whos-the-first-person-in-history-whose-name-we-know#:~:text=This%20was%2030%2C000%20years%20ago.%20Writing%20hadn%E2%80%99t%20been%20invented%2C%20so%20they%20couldn%E2%80%99t%20chalk%20their%20names%20on%20the%20rock.",
     },
-    end: 2015,
     summary: "No babies have been named since.",
     sources: [
       {
@@ -481,7 +578,7 @@ export const industries = [
         link: "https://www.forbes.com/sites/neilhowe/2018/08/27/are-millennials-killing-the-u-s-housing-market/",
       },
       {
-        name: "Market Watch",
+        name: "MarketWatch",
         year: 2017,
         link: "https://www.marketwatch.com/story/student-debt-is-delaying-millennial-homeownership-by-seven-years-2017-09-18",
       },
@@ -549,7 +646,7 @@ export const industries = [
     summary: "",
     sources: [
       {
-        name: "Market Watch",
+        name: "MarketWatch",
         year: 2017,
         link: "https://www.marketwatch.com/story/millennials-are-killing-bar-soap-2017-06-09",
       },
@@ -753,14 +850,12 @@ export const industries = [
   },
   {
     name: "American Cheese",
-    year: 2019,
     image: "cheese-wedge",
     type: "product",
     origin: {
       year: "in 1916",
       link: "https://en.wikipedia.org/wiki/American_cheese#:~:text=After%20patenting%20a%20new%20method%20for%20manufacturing%20processed%20cheese%20in%201916%2C%5B3%5D%5B4%5D%20James%20L.%20Kraft%20began%20marketing%20it%20in%20the%20late%201910s%2C%20and%20the%20term%20%22American%20cheese%22%20rapidly%20began%20to%20refer%20to%20the%20processed%20variety%20instead%20of%20the%20traditional%20but%20more%20expensive%20cheddars%20also%20made%20and%20sold%20in%20the%20U.S.",
     },
-    end: 2018,
     summary: "Because we have taste.",
     sources: [
       {
@@ -828,6 +923,7 @@ export const industries = [
     name: "Beer",
     image: "clinking-beer-mugs",
     type: "product",
+    summary: "",
     origin: {
       year: "13,000 years ago",
       link: "https://en.wikipedia.org/wiki/Beer#:~:text=The%20earliest%20archaeological%20evidence%20of%20fermentation%20consists%20of%2013%2C000%2Dyear%2Dold%20residues%20of%20a%20beer%20with%20the%20consistency%20of%20gruel%2C%20used%20by%20the%20semi%2Dnomadic%20Natufians%20for%20ritual%20feasting%2C%20at%20the%20Raqefet%20Cave%20in%20the%20Carmel%20Mountains%20near%20Haifa%20in%20Israel.",
@@ -849,6 +945,7 @@ export const industries = [
     name: "Breakfast Cereal",
     image: "glass-of-milk",
     type: "product",
+    summary: "",
     origin: {
       year: "in the 19th century",
       link: "https://en.wikipedia.org/wiki/Breakfast_cereal#:~:text=Food%20reformers%20in,breakfast%20cereals.%5B7%5D",
@@ -906,7 +1003,7 @@ export const industries = [
   {
     name: "Department Stores",
     image: "shopping-bags",
-    type: "place",
+    type: "location",
     origin: {
       year: "in 1838",
       link: "https://en.wikipedia.org/wiki/Department_store#:~:text=This%20much%2Dloved%20Newcastle%20institution%20dates%20back%20to%201838%2C%20when%20at%20the%20age%20of%2021%2C%20Emerson%20Muschamp%20Bainbridge%20went%20into%20partnership%20with%20William%20Alder%20Dunn%20and%20opened%20a%20draper%E2%80%99s%20and%20fashion%20in%20Market%20Street%2C%20Newcastle.",
@@ -962,7 +1059,7 @@ export const industries = [
   {
     name: "Weddings",
     image: "wedding",
-    type: "traditions",
+    type: "tradition",
     origin: {
       year: "in 2350 BC",
       link: "https://theweek.com/articles/528746/origins-marriage#:~:text=The%20first%20recorded%20evidence%20of%20marriage%20ceremonies%20uniting%20one%20woman%20and%20one%20man%20dates%20from%20about%202350%20B.C.%2C%20in%20Mesopotamia.",
@@ -975,7 +1072,7 @@ export const industries = [
         link: "https://www.yahoo.com/now/wedding-traditions-millennials-killing-131010616.html",
       },
       {
-        name: "Market Watch",
+        name: "MarketWatch",
         year: 2018,
         link: "https://www.marketwatch.com/story/millennials-are-killing-marriage-heres-why-thats-a-good-thing-2018-02-08",
       },
@@ -1033,7 +1130,7 @@ export const industries = [
   {
     name: "Banks",
     image: "bank",
-    type: "place",
+    type: "location",
     origin: {
       year: "in 1397",
       link: "https://en.wikipedia.org/wiki/Bank#:~:text=Giovanni%20di%20Bicci%20de%27%20Medici%20set%20up%20one%20of%20the%20most%20famous%20Italian%20banks%2C%20the%20Medici%20Bank%2C%20in%201397.%5B",
@@ -1050,7 +1147,7 @@ export const industries = [
   {
     name: "Casual Dining",
     image: "takeout-box",
-    type: "place",
+    type: "location",
     origin: {
       year: "in the 1960s",
       link: "https://www.thebalancesmb.com/history-of-restaurants-part-3-2888657#:~:text=The%201950s%20saw%20the%20rapid%20growth%20of%20fast%20food%2C%20while%20the%201960s%20marked%20the%20beginning%20of%20casual%20family%20dining%20and%20chain%20restaurants.",
@@ -1099,7 +1196,6 @@ export const industries = [
       year: "in 1926",
       link: "https://www.history.com/this-day-in-history/ford-factory-workers-get-40-hour-week#:~:text=On%20May%201%2C%201926%2C%20Ford%20Motor%20Company%20becomes%20one%20of%20the%20first%20companies%20in%20America%20to%20adopt%20a%20five%2Dday%2C%2040%2Dhour%20week%20for%20workers%20in%20its%20automotive%20factories.",
     },
-    end: 2016,
     summary: "We wish this was true.",
     sources: [
       {
@@ -1122,12 +1218,12 @@ export const industries = [
   {
     name: "Middle Children",
     image: "family-woman-girl",
-    type: "other",
+    type: "tradition",
     origin: {
       year: "???",
-      link: "",
+      link: "https://en.wikipedia.org/wiki/Birth_order",
     },
-    summary: "If Furbies are discountinued why have toys at all?",
+    summary: "",
     sources: [
       {
         name: "Business Insider",
@@ -1135,7 +1231,7 @@ export const industries = [
         link: "https://www.businessinsider.com/toys-r-us-closes-millennials-babies-birth-rate-2018-3",
       },
       {
-        name: "Philadelphia Magazine",
+        name: "Philadelphia",
         year: 2020,
         link: "https://www.phillymag.com/news/2020/02/01/millennials-having-kids/",
       },
@@ -1181,9 +1277,3 @@ export const industries = [
     ],
   },
 ];
-
-
-
-
-
-
