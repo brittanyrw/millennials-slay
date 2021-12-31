@@ -90,7 +90,11 @@
               target="_blank"
               :aria-label="`Go to ${source.name} ${item.name} article`"
               >{{ source.name
-              }}<span v-if="source.reaction">{{ source.reaction }}</span></a
+              }}<img
+            v-if="source.reaction"
+            :src="require(`../assets/eye-roll.png`)"
+            :alt="`eye roll emoji`"
+          /></a
             >
           </li>
         </ul>
@@ -311,6 +315,7 @@ li a {
   cursor: pointer;
   a {
     color: white;
+    display: flex;
   }
 }
 
@@ -354,6 +359,16 @@ li a {
 .sources {
   padding: 0;
   list-style: none;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      img {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+  }
 }
 
 .statistics {

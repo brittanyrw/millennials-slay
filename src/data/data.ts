@@ -185,7 +185,7 @@ export const industries: Industry[] = [
       year: "in 1783",
       link: "https://en.wikipedia.org/wiki/Soft_drink#:~:text=with%20one%20such%20inventor%2C%20J.%20J.%20Schweppe%2C%20forming%20Schweppes%20in%201783%20and%20selling%20the%20world%27s%20first%20bottled%20soft%20drink.%5B4%5D%5B5%5D",
     },
-    summary: "",
+    summary: "Healthier options claims another victim.",
     sources: [
       {
         name: "Observer",
@@ -258,12 +258,13 @@ export const industries: Industry[] = [
       year: "in the 1600s",
       link: "https://en.wikipedia.org/wiki/Wine_cork#:~:text=The%20inventor%20of%20cork%2Dbased%20wine%20stoppers%20is%20unknown.%20Colloquial%20stories%20attribute%20the%20Benedictine%20monk%20Dom%20P%C3%A9rignon.%20The%20stoppers%20date%20to%20about%20the%201600s.",
     },
-    summary: "",
+    summary: "We're definately evil for liking easier, non-contaimating methods of sealing bottles that were invented before most of us could legally drink.",
     sources: [
       {
         name: "The Atlantic",
         year: 2016,
         link: "https://www.theatlantic.com/technology/archive/2016/02/wine-cork-comeback/470961/",
+        reaction: "eye-roll"
       },
     ],
   },
@@ -275,12 +276,13 @@ export const industries: Industry[] = [
       year: "in 1888",
       link: "https://en.wikipedia.org/wiki/History_of_film#:~:text=On%2010%20January%201888%2C%20the%20French%20artist%20and%20inventor%20Louis%20Le%20Prince%20registered%20the%20first%20British%20patent%20for%20a%20camera%20that%20was%20capable%20of%20filming%20motion.%5B21%5D%20He%20recorded%20the%20earliest%20known%20motion%20picture%20in%20extant%20on%2014%20October%201888.",
     },
-    summary: "",
+    summary: "Make better movies then.",
     sources: [
       {
         name: "CNET",
         year: 2021,
         link: "https://www.cnet.com/news/ridley-scott-blames-millennials-for-the-box-office-failure-of-the-last-duel/",
+        reaction: "eye-roll"
       },
       {
         name: "NY Post",
@@ -307,8 +309,13 @@ export const industries: Industry[] = [
       year: "in 776 BC",
       link: "https://en.wikipedia.org/wiki/Ancient_Olympic_Games#:~:text=The%20first%20Olympic%20Games%20are%20traditionally%20dated%20to%20776%20BC.",
     },
-    summary: "Did not know we had the ability to kill this one ngl.",
+    summary: "We're too busy Snapchating, am I right?",
     sources: [
+      {
+        name: "Bloomberg",
+        year: 2016,
+        link: "http://www.bloomberg.com/news/articles/2016-08-19/nbc-s-12-billion-olympics-bet-stumbles-thanks-to-millennials?curator=MediaREDEF"
+      },
       {
         name: "Esquire",
         year: 2016,
@@ -318,7 +325,7 @@ export const industries: Industry[] = [
         name: "Sportico",
         year: 2021,
         link: "https://www.sportico.com/business/media/2021/millennials-cable-sports-future-1234627516/",
-      },
+      }
     ],
   },
   {
@@ -329,12 +336,13 @@ export const industries: Industry[] = [
       year: "in 1815",
       link: "https://en.wikipedia.org/wiki/Mayonnaise#:~:text=It%20is%20only%20in%201815%20that%20Antonin%20Car%C3%AAme%20mentions%20a%20cold%20%22magnonaise%22%20emulsified%20with%20egg%20yolk.%20The%20word%20%22mayonnaise%22%20is%20attested%20in%20English%20in%201815.",
     },
-    summary: "",
+    summary: "RIP.",
     sources: [
       {
         name: "Philadelphia",
         year: 2018,
         link: "https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/#8Qe1kpK6vsPplpl9.99",
+        reaction: "eye-roll"
       },
       {
         name: "New Zealand Herald",
@@ -351,17 +359,12 @@ export const industries: Industry[] = [
       year: "20 million years ago",
       link: "https://en.wikipedia.org/wiki/Turkey_(bird)#:~:text=The%20earliest%20turkeys%20evolved%20in%20North%20America%20over%2020%20million%20years%20ago%20and%20they%20share%20a%20recent%20common%20ancestor%20with%20grouse%2C%20pheasants%2C%20and%20other%20fowl.",
     },
-    summary: "",
+    summary: "What's not to like about wasting less food?",
     sources: [
       {
         name: "Bloomberg",
         year: 2018,
         link: "https://www.bloomberg.com/news/articles/2018-11-15/millennials-are-disrupting-thanksgiving-with-their-tiny-turkeys",
-      },
-      {
-        name: "Yahoo! News",
-        year: 2018,
-        link: "https://www.yahoo.com/news/millennials-killing-gigantic-turkey-industry-205311968.html",
       },
     ],
   },
@@ -373,7 +376,7 @@ export const industries: Industry[] = [
       year: "in 1946",
       link: "https://en.wikipedia.org/wiki/Sitcom#:~:text=There%20were%20prior%20examples%20on%20radio%2C%20but%20the%20first%20television%20sitcom%20is%20said%20to%20be%20Pinwright%27s%20Progress%2C%20ten%20episodes%20being%20broadcast%20on%20the%20BBC%20in%20the%20United%20Kingdom%20between%201946%20and%201947.",
     },
-    summary: "",
+    summary: "Give us one with realistic apartments.",
     sources: [
       {
         name: "Refinery29",
@@ -423,7 +426,7 @@ export const industries: Industry[] = [
       year: "in 1566",
       link: "https://en.wikipedia.org/wiki/History_of_newspaper_publishing#:~:text=The%20modern%20newspaper%20is%20a%20European%20invention.%5B1%5D%20The%20oldest%20direct%20handwritten%20news%20sheets%20that%20circulated%20widely%20in%20Venice%20as%20early%20as%201566.",
     },
-    summary: "",
+    summary: "Not our fault they cant keep up with technology.",
     sources: [
       {
         name: "Reuters",
@@ -612,7 +615,7 @@ export const industries: Industry[] = [
       year: "around 51 BCE",
       link: "https://intothegloss.com/2015/03/history-of-anti-aging/",
     },
-    summary: "",
+    summary: "We're good at spotting scams.",
     sources: [
       {
         name: "The Cut",
@@ -805,7 +808,7 @@ export const industries: Industry[] = [
       year: "in the 19th century",
       link: "https://en.wikipedia.org/wiki/Vacation#:~:text=The%20concept%20of%20taking%20a%20vacation%20is%20a%20recent%20invention%2C%20and%20has%20developed%20through%20the%20last%20two%20centuries.",
     },
-    summary: "",
+    summary: "Can't take vacation that you don't have.",
     sources: [
       {
         name: "Inc",
@@ -876,7 +879,7 @@ export const industries: Industry[] = [
       year: "in 2nd century BC",
       link: "https://en.wikipedia.org/wiki/Napkin#:~:text=The%20use%20of%20paper%20napkins%20is%20documented%20in%20ancient%20China%2C%20where%20paper%20was%20invented%20in%20the%202nd%20century%20BC.",
     },
-    summary: "",
+    summary: "Paper towels are superior.",
     sources: [
       {
         name: "Business Insider",
@@ -938,7 +941,7 @@ export const industries: Industry[] = [
     name: "Breakfast Cereal",
     image: "glass-of-milk",
     type: "product",
-    summary: "Apparently its because we are lazy.",
+    summary: "Apparently were too lazy to wash bowls.",
     origin: {
       year: "in the 19th century",
       link: "https://en.wikipedia.org/wiki/Breakfast_cereal#:~:text=Food%20reformers%20in,breakfast%20cereals.%5B7%5D",
@@ -1029,7 +1032,7 @@ export const industries: Industry[] = [
       year: "around 2,000 years ago",
       link: "https://www.newhanfu.com/8837.html#:~:text=The%20first%20iron%20was%20made%20of%20stones%2C%20pottery%2C%20or%20copper%2C%20roasting%20on%20the%20fire%2C%20and%20then%20pressed%20on%20the%20clothes%20to%20iron%20them.%20It%20is%20said%20that%20iron%20was%20invented%20before%20the%20end%20of%20the%20Shang%20Dynasty.",
     },
-    summary: "",
+    summary: "Bye.",
     sources: [
       {
         name: "Southern Living",
@@ -1063,7 +1066,7 @@ export const industries: Industry[] = [
       year: "in 2350 BC",
       link: "https://theweek.com/articles/528746/origins-marriage#:~:text=The%20first%20recorded%20evidence%20of%20marriage%20ceremonies%20uniting%20one%20woman%20and%20one%20man%20dates%20from%20about%202350%20B.C.%2C%20in%20Mesopotamia.",
     },
-    summary: "",
+    summary: "Weddings aren't dead, we're just not following your traditions.",
     sources: [
       {
         name: "Yahoo! News",
@@ -1151,7 +1154,7 @@ export const industries: Industry[] = [
       year: "in the 1960s",
       link: "https://www.thebalancesmb.com/history-of-restaurants-part-3-2888657#:~:text=The%201950s%20saw%20the%20rapid%20growth%20of%20fast%20food%2C%20while%20the%201960s%20marked%20the%20beginning%20of%20casual%20family%20dining%20and%20chain%20restaurants.",
     },
-    summary: "",
+    summary: "Looking for more authentic experiences.",
     sources: [
       {
         name: "Restaruant Business Online",
@@ -1222,7 +1225,7 @@ export const industries: Industry[] = [
       year: "???",
       link: "https://en.wikipedia.org/wiki/Birth_order",
     },
-    summary: "",
+    summary: "If you fix politics, the economy, and climate change maybe we'll be back in business.",
     sources: [
       {
         name: "Business Insider",
@@ -1290,4 +1293,10 @@ export const quotes = [
     link: "https://www.yahoo.com/now/millennials-killing-cereal-boomers-gen-190613585.html",
     industry: "Cereal",
   },
+  {
+    quote: "We are trying to figure out how to develop napkin holders that appeal to a younger generation,” he says.",
+    source: "Washington Post",
+    link: "https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html",
+    industry: "Napkins"
+  }
 ];
