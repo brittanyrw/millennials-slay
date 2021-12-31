@@ -480,6 +480,7 @@ a {
     text-align: left;
     .quote {
       margin: 0 20px;
+      max-width: 300px;
       .quote-text {
         position: relative;
 
