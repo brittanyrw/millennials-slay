@@ -77,7 +77,7 @@ export type Media =
   | "Philadelphia"
   | "PR Week"
   | "Refinery29"
-  | "Restaruant Business Online"
+  | "Restaurant Business Online"
   | "Reuters"
   | "RigZone"
   | "Savings"
@@ -109,7 +109,7 @@ export const industries: Industry[] = [
       link: "https://en.wikipedia.org/wiki/Doorbell#:~:text=William%20Murdoch%2C%20a%20Scottish%20inventor%2C%20installed%20a%20number%20of%20his%20own%20innovations%20in%20his%20house%2C%20built%20in%20Birmingham%20in%201817%3B%20one%20of%20these%20was%20a%20loud%20doorbell%2C%20that%20worked%20using%20a%20piped%20system%20of%20compressed%20air.",
     },
     summary:
-      "Apparently startling someone in their home is preferred over giving a gental heads up via text.",
+      "Apparently startling someone in their home is preferred over giving a gentle heads up via text.",
     sources: [
       {
         name: "Wall Street Journal",
@@ -246,7 +246,7 @@ export const industries: Industry[] = [
       year: "in prehistoric times",
       link: "https://en.wikipedia.org/wiki/Toy#:~:text=The%20origin%20of%20toys%20is%20prehistoric%3B%20dolls%20representing%20infants%2C%20animals%2C%20and%20soldiers%2C%20as%20well%20as%20representations%20of%20tools%20used%20by%20adults%20are%20readily%20found%20at%20archaeological%20sites.",
     },
-    summary: "If Furbies are discountinued why have toys at all?",
+    summary: "If Furbies are discontinued why have toys at all?",
     sources: [
       {
         name: "Florida Today",
@@ -264,7 +264,7 @@ export const industries: Industry[] = [
       link: "https://en.wikipedia.org/wiki/Wine_cork#:~:text=The%20inventor%20of%20cork%2Dbased%20wine%20stoppers%20is%20unknown.%20Colloquial%20stories%20attribute%20the%20Benedictine%20monk%20Dom%20P%C3%A9rignon.%20The%20stoppers%20date%20to%20about%20the%201600s.",
     },
     summary:
-      "We're definately evil for liking easier, non-contaimating methods of sealing bottles that were invented before most of us could legally drink.",
+      "We're definitely evil for liking easier, non-contaminating methods of sealing bottles that were invented before most of us could legally drink.",
     sources: [
       {
         name: "The Atlantic",
@@ -637,7 +637,7 @@ export const industries: Industry[] = [
     ],
   },
   {
-    name: "Avacado",
+    name: "Avocado",
     image: "avocado",
     type: "product",
     origin: {
@@ -684,7 +684,7 @@ export const industries: Industry[] = [
       link: "https://en.wikipedia.org/wiki/Cable_television#:~:text=Cable%20television%5B5%5D%20began%20in%20the%20United%20States%20as%20a%20commercial%20business%20in%201950%2C%20although%20there%20were%20small%2Dscale%20systems%20by%20hobbyists%20in%20the%201940s.",
     },
     summary:
-      "$100+ a month for a bazillion channels I don't watch AND a preditory contract or Netflix for less than $20?",
+      "$100+ a month for a bazillion channels I don't watch AND a predatory contract or Netflix for less than $20?",
     sources: [
       {
         name: "We Forum",
@@ -971,7 +971,7 @@ export const industries: Industry[] = [
       link: "https://en.wikipedia.org/wiki/Motorcycle#:~:text=The%201885%20Daimler%20Reitwagen%20made%20by%20Gottlieb%20Daimler%20and%20Wilhelm%20Maybach%20in%20Germany%20was%20the%20first%20internal%20combustion%2C%20petroleum%2Dfueled%20motorcycle.",
     },
     summary:
-      "So this industry is struggling because millenials prefer to use motorcycles for - wait for it - transportation.",
+      "So this industry is struggling because millennials prefer to use motorcycles for - wait for it - transportation.",
     sources: [
       {
         name: "Bloomberg",
@@ -1047,7 +1047,7 @@ export const industries: Industry[] = [
       year: "in 1831",
       link: "https://en.wikipedia.org/wiki/Cruise_ship#:~:text=Italy%2C%20a%20traditional%20focus%20of%20the%20Grand%20Tour%2C%20offered%20an%20early%20cruise%20experience%20on%20the%20Francesco%20I%2C%20flying%20the%20flag%20of%20the%20Kingdom%20of%20the%20Two%20Sicilies.%20Built%20in%201831%2C%20the%20Francesco%20I%20sailed%20from%20Naples%20in%20early%20June%201833%2C%20preceded%20by%20an%20advertising%20campaign.",
     },
-    summary: "Was it millenials or infectious disease?",
+    summary: "Was it millennials or infectious disease?",
     sources: [
       {
         name: "Caribbean News Service",
@@ -1156,7 +1156,7 @@ export const industries: Industry[] = [
     summary: "Looking for more authentic experiences.",
     sources: [
       {
-        name: "Restaruant Business Online",
+        name: "Restaurant Business Online",
         year: 2019,
         link: "https://www.restaurantbusinessonline.com/financing/why-restaurant-traffic-falling-blame-millennials#:~:text=I%20hate%20to%20say%20this,they%20are%20killing%20casual%20dining.&text=According%20to%20Technomic%20Ignite%20consumer,59%25%20over%20the%20past%20year.",
       },
