@@ -91,15 +91,29 @@
               :aria-label="`Go to ${source.name} ${item.name} article`"
               >{{ source.name
               }}<img
-            v-if="source.reaction"
-            :src="require(`../assets/eye-roll.png`)"
-            :alt="`eye roll emoji`"
-          /></a
-            >
+                v-if="source.reaction"
+                :src="require(`../assets/eye-roll.png`)"
+                :alt="`eye roll emoji`"
+            /></a>
           </li>
         </ul>
       </li>
     </ul>
+    <div class="quotes">
+      <h3>Quote Hall of Fame</h3>
+      <ul>
+        <li v-for="(quote, index) in quotes" :key="index" class="quote">
+          <p class="quote-text">{{ quote.quote }}</p>
+          <a
+            :href="`${quote.link}`"
+            target="_blank"
+            :aria-label="`Go to ${quote.source} article on ${quote.industry}`"
+            >- {{ quote.source }}</a
+          >
+          <p class="quote-industry">{{ quote.industry }}</p>
+        </li>
+      </ul>
+    </div>
     <div class="gen-z">
       <header>
         <h3>Gen Z, they're comin' for ya too...</h3>
@@ -142,13 +156,11 @@
 
 <script>
 import { industries } from "../data/data";
+import { quotes } from "../data/data";
 import Header from "./Header.vue";
 
 export default {
   name: "Main",
-  props: {
-    msg: String,
-  },
   components: {
     Header,
   },
@@ -156,6 +168,7 @@ export default {
     return {
       type: "all",
       items: industries,
+      quotes: quotes,
     };
   },
   computed: {
@@ -363,11 +376,11 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-      img {
-    height: 20px;
-    width: 20px;
-    margin-left: 5px;
-  }
+    img {
+      height: 20px;
+      width: 20px;
+      margin-left: 5px;
+    }
   }
 }
 
@@ -454,6 +467,35 @@ a {
   border: 1px solid $gray;
   a {
     color: white;
+  }
+}
+
+.quotes {
+  border-top: 1px solid $black;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    .quote {
+      margin: 0 20px;
+      .quote-text {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          content: "❝";
+          font-size: 30px;
+          top: -5px;
+          left: -25px;
+        }
+      }
+      .quote-industry {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
   }
 }
 </style>

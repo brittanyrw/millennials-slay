@@ -56,6 +56,7 @@ export type Media =
   | "HuffPost"
   | "Inc"
   | "Inside Out"
+  | "KRWG"
   | "Live Mint"
   | "MarketWatch"
   | "Marketscale"
@@ -75,7 +76,6 @@ export type Media =
   | "OilPrice"
   | "Philadelphia"
   | "PR Week"
-  | "Purse Blog"
   | "Refinery29"
   | "Restaruant Business Online"
   | "Reuters"
@@ -141,12 +141,17 @@ export const industries: Industry[] = [
       year: "in the early 20th century",
       link: "https://montrealgazette.com/opinion/columnists/the-right-chemistry-the-pros-and-cons-of-fabric-softeners#:~:text=Historically%2C%20fabric%20softeners%20first%20appeared%20in%20the%20early%2020th%20century%2C%20introduced%20because%20the%20dyes%20used%20back%20then%20left%20cotton%20fabrics%20with%20a%20harsh%20feel.",
     },
-    summary: "",
+    summary: "Mmmmm...smells like clothes drenched in chemicals.",
     sources: [
       {
         name: "Wall Street Journal",
         year: 2016,
         link: "https://www.wsj.com/articles/fabric-softener-sales-are-losing-their-bounce-1481889602",
+      },
+      {
+        name: "KRWG",
+        year: 2019,
+        link: "https://www.krwg.org/post/fabric-softeners-and-millennials-best-laid-plans-marketing-peskiest-generation",
       },
     ],
   },
@@ -158,7 +163,7 @@ export const industries: Industry[] = [
       year: "in the early 20th century",
       link: "https://en.wikipedia.org/wiki/Clothing_industry",
     },
-    summary: "",
+    summary: "Florals...for spring? Groundbreaking.",
     sources: [
       {
         name: "Nylon",
@@ -258,13 +263,14 @@ export const industries: Industry[] = [
       year: "in the 1600s",
       link: "https://en.wikipedia.org/wiki/Wine_cork#:~:text=The%20inventor%20of%20cork%2Dbased%20wine%20stoppers%20is%20unknown.%20Colloquial%20stories%20attribute%20the%20Benedictine%20monk%20Dom%20P%C3%A9rignon.%20The%20stoppers%20date%20to%20about%20the%201600s.",
     },
-    summary: "We're definately evil for liking easier, non-contaimating methods of sealing bottles that were invented before most of us could legally drink.",
+    summary:
+      "We're definately evil for liking easier, non-contaimating methods of sealing bottles that were invented before most of us could legally drink.",
     sources: [
       {
         name: "The Atlantic",
         year: 2016,
         link: "https://www.theatlantic.com/technology/archive/2016/02/wine-cork-comeback/470961/",
-        reaction: "eye-roll"
+        reaction: "eye-roll",
       },
     ],
   },
@@ -282,7 +288,7 @@ export const industries: Industry[] = [
         name: "CNET",
         year: 2021,
         link: "https://www.cnet.com/news/ridley-scott-blames-millennials-for-the-box-office-failure-of-the-last-duel/",
-        reaction: "eye-roll"
+        reaction: "eye-roll",
       },
       {
         name: "NY Post",
@@ -309,12 +315,12 @@ export const industries: Industry[] = [
       year: "in 776 BC",
       link: "https://en.wikipedia.org/wiki/Ancient_Olympic_Games#:~:text=The%20first%20Olympic%20Games%20are%20traditionally%20dated%20to%20776%20BC.",
     },
-    summary: "We're too busy Snapchating, am I right?",
+    summary: "",
     sources: [
       {
         name: "Bloomberg",
         year: 2016,
-        link: "http://www.bloomberg.com/news/articles/2016-08-19/nbc-s-12-billion-olympics-bet-stumbles-thanks-to-millennials?curator=MediaREDEF"
+        link: "http://www.bloomberg.com/news/articles/2016-08-19/nbc-s-12-billion-olympics-bet-stumbles-thanks-to-millennials?curator=MediaREDEF",
       },
       {
         name: "Esquire",
@@ -325,7 +331,7 @@ export const industries: Industry[] = [
         name: "Sportico",
         year: 2021,
         link: "https://www.sportico.com/business/media/2021/millennials-cable-sports-future-1234627516/",
-      }
+      },
     ],
   },
   {
@@ -342,7 +348,7 @@ export const industries: Industry[] = [
         name: "Philadelphia",
         year: 2018,
         link: "https://www.phillymag.com/news/2018/08/11/mayonnaise-industry-millennials/#8Qe1kpK6vsPplpl9.99",
-        reaction: "eye-roll"
+        reaction: "eye-roll",
       },
       {
         name: "New Zealand Herald",
@@ -359,12 +365,18 @@ export const industries: Industry[] = [
       year: "20 million years ago",
       link: "https://en.wikipedia.org/wiki/Turkey_(bird)#:~:text=The%20earliest%20turkeys%20evolved%20in%20North%20America%20over%2020%20million%20years%20ago%20and%20they%20share%20a%20recent%20common%20ancestor%20with%20grouse%2C%20pheasants%2C%20and%20other%20fowl.",
     },
-    summary: "What's not to like about wasting less food?",
+    summary:
+      "'Turkeys bred in the industrial farming industry so that they're two times the size they would normally be' just doesn't roll off the tongue, you know?",
     sources: [
       {
         name: "Bloomberg",
         year: 2018,
         link: "https://www.bloomberg.com/news/articles/2018-11-15/millennials-are-disrupting-thanksgiving-with-their-tiny-turkeys",
+      },
+      {
+        name: "Refinery29",
+        year: 2018,
+        link: "https://www.refinery29.com/en-us/2018/11/217206/small-turkey-millennial-thanksgiving-trend",
       },
     ],
   },
@@ -649,7 +661,7 @@ export const industries: Industry[] = [
       year: "in the late 18th century",
       link: "https://en.wikipedia.org/wiki/Soap#:~:text=Industrially%20manufactured%20bar%20soaps%20became%20available%20in%20the%20late%2018th%20century%2C%20as%20advertising%20campaigns%20in%20Europe%20and%20America%20promoted%20popular%20awareness%20of%20the%20relationship%20between%20cleanliness%20and%20health",
     },
-    summary: "",
+    summary: "They just kinda look gross sometimes, okay?",
     sources: [
       {
         name: "MarketWatch",
@@ -671,7 +683,8 @@ export const industries: Industry[] = [
       year: "in 1950",
       link: "https://en.wikipedia.org/wiki/Cable_television#:~:text=Cable%20television%5B5%5D%20began%20in%20the%20United%20States%20as%20a%20commercial%20business%20in%201950%2C%20although%20there%20were%20small%2Dscale%20systems%20by%20hobbyists%20in%20the%201940s.",
     },
-    summary: "",
+    summary:
+      "$100+ a month for a bazillion channels I don't watch AND a preditory contract or Netflix for less than $20?",
     sources: [
       {
         name: "We Forum",
@@ -698,8 +711,14 @@ export const industries: Industry[] = [
       year: "in 1907",
       link: "https://en.wikipedia.org/wiki/Albert_P._Halfhill#:~:text=%233889%20%2D%20The%20first%20canned%20tuna,cans%20and%20lowered%20the%20price.",
     },
-    summary: "",
+    summary:
+      "Got it, its because we don't own can openers and not because the tuna industry is kinda shady.",
     sources: [
+      {
+        name: "Wall Street Journal",
+        year: 2018,
+        link: "https://www.wsj.com/articles/tuna-makers-look-to-hook-younger-consumers-1543766400",
+      },
       {
         name: "Refinery29",
         year: 2018,
@@ -735,28 +754,6 @@ export const industries: Industry[] = [
     ],
   },
   {
-    name: "Designer Handbags",
-    image: "clutch-bag",
-    type: "product",
-    origin: {
-      year: "in 1841",
-      link: "https://en.wikipedia.org/wiki/Handbag#:~:text=The%20modern%20purse,withstand%20the%20journey.",
-    },
-    summary: "",
-    sources: [
-      {
-        name: "Business Insider",
-        year: 2015,
-        link: "https://www.businessinsider.com/the-death-of-designer-handbags-2015-8",
-      },
-      {
-        name: "Purse Blog",
-        year: 2019,
-        link: "https://www.purseblog.com/news/are-designer-handbags-losing-their-importance-in-a-womans-wardrobe/",
-      },
-    ],
-  },
-  {
     name: "Diamonds",
     image: "gem-stone",
     type: "product",
@@ -786,7 +783,7 @@ export const industries: Industry[] = [
       year: "in 1869",
       link: "https://en.wikipedia.org/wiki/American_football#:~:text=What%20is%20considered%20to%20be%20the%20first%20American%20football%20game%20was%20played%20on%20November%206%2C%201869%2C%20between%20Rutgers%20and%20Princeton%2C%20two%20college%20teams.%20They%20consisted%20of%2025%20players%20per%20team%20and%20used%20a%20round%20ball%20that%20could%20not%20be%20picked%20up%20or%20carried.",
     },
-    summary: "",
+    summary: "The best part is the halftime show.",
     sources: [
       {
         name: "CS Monitor",
@@ -830,7 +827,7 @@ export const industries: Industry[] = [
       year: "in the 17th century",
       link: "https://en.wikipedia.org/wiki/Hotel#:~:text=For%20a%20period%20of%20about%20200%20years%20from%20the%20mid%2D17th%20century%2C%20coaching%20inns%20served%20as%20a%20place%20for%20lodging%20for%20coach%20travelers.",
     },
-    summary: "",
+    summary: "Better internet would fix this immediately, fyi.",
     sources: [
       {
         name: "Mashable",
@@ -924,7 +921,7 @@ export const industries: Industry[] = [
     name: "Beer",
     image: "clinking-beer-mugs",
     type: "product",
-    summary: "",
+    summary: "If your beer isn't sustainable and creative, we don't want it.",
     origin: {
       year: "13,000 years ago",
       link: "https://en.wikipedia.org/wiki/Beer#:~:text=The%20earliest%20archaeological%20evidence%20of%20fermentation%20consists%20of%2013%2C000%2Dyear%2Dold%20residues%20of%20a%20beer%20with%20the%20consistency%20of%20gruel%2C%20used%20by%20the%20semi%2Dnomadic%20Natufians%20for%20ritual%20feasting%2C%20at%20the%20Raqefet%20Cave%20in%20the%20Carmel%20Mountains%20near%20Haifa%20in%20Israel.",
@@ -973,7 +970,8 @@ export const industries: Industry[] = [
       year: "in 1885",
       link: "https://en.wikipedia.org/wiki/Motorcycle#:~:text=The%201885%20Daimler%20Reitwagen%20made%20by%20Gottlieb%20Daimler%20and%20Wilhelm%20Maybach%20in%20Germany%20was%20the%20first%20internal%20combustion%2C%20petroleum%2Dfueled%20motorcycle.",
     },
-    summary: "",
+    summary:
+      "So this industry is struggling because millenials prefer to use motorcycles for - wait for it - transportation.",
     sources: [
       {
         name: "Bloomberg",
@@ -1010,7 +1008,7 @@ export const industries: Industry[] = [
       year: "in 1838",
       link: "https://en.wikipedia.org/wiki/Department_store#:~:text=This%20much%2Dloved%20Newcastle%20institution%20dates%20back%20to%201838%2C%20when%20at%20the%20age%20of%2021%2C%20Emerson%20Muschamp%20Bainbridge%20went%20into%20partnership%20with%20William%20Alder%20Dunn%20and%20opened%20a%20draper%E2%80%99s%20and%20fashion%20in%20Market%20Street%2C%20Newcastle.",
     },
-    summary: "",
+    summary: "Don't play the game if you can't handle the competition, baby.",
     sources: [
       {
         name: "USA Today",
@@ -1032,7 +1030,7 @@ export const industries: Industry[] = [
       year: "around 2,000 years ago",
       link: "https://www.newhanfu.com/8837.html#:~:text=The%20first%20iron%20was%20made%20of%20stones%2C%20pottery%2C%20or%20copper%2C%20roasting%20on%20the%20fire%2C%20and%20then%20pressed%20on%20the%20clothes%20to%20iron%20them.%20It%20is%20said%20that%20iron%20was%20invented%20before%20the%20end%20of%20the%20Shang%20Dynasty.",
     },
-    summary: "Bye.",
+    summary: "Steamers are cute.",
     sources: [
       {
         name: "Southern Living",
@@ -1088,7 +1086,8 @@ export const industries: Industry[] = [
       year: "in 1958",
       link: "https://en.wikipedia.org/wiki/Credit_card#:~:text=In%201958%2C%20Bank%20of%20America%20launched%20the%20BankAmericard%20in%20Fresno%2C%20California%2C%20which%20would%20become%20the%20first%20successful%20recognizably%20modern%20credit%20card",
     },
-    summary: "",
+    summary:
+      "♫  Don't want to be a fool for you, just another player in your game for two. ♫",
     sources: [
       {
         name: "E-Merchant Broker",
@@ -1137,7 +1136,7 @@ export const industries: Industry[] = [
       year: "in 1397",
       link: "https://en.wikipedia.org/wiki/Bank#:~:text=Giovanni%20di%20Bicci%20de%27%20Medici%20set%20up%20one%20of%20the%20most%20famous%20Italian%20banks%2C%20the%20Medici%20Bank%2C%20in%201397.%5B",
     },
-    summary: "",
+    summary: "♫ It's too late and I can't wait for you to be gone ♫ ",
     sources: [
       {
         name: "TechCrunch",
@@ -1225,7 +1224,8 @@ export const industries: Industry[] = [
       year: "???",
       link: "https://en.wikipedia.org/wiki/Birth_order",
     },
-    summary: "If you fix politics, the economy, and climate change maybe we'll be back in business.",
+    summary:
+      "If you fix politics, the economy, and climate change maybe we'll be back in business.",
     sources: [
       {
         name: "Business Insider",
@@ -1274,7 +1274,7 @@ export const industries: Industry[] = [
       year: "in the 15th century",
       link: "https://en.wikipedia.org/wiki/Golf#:~:text=The%20modern%20game%20of%20golf%20originated%20in%2015th%20century%20Scotland.",
     },
-    summary: "",
+    summary: "This is Tiger Woods' fault.",
     sources: [
       {
         name: "Business Insider",
@@ -1288,15 +1288,23 @@ export const industries: Industry[] = [
 export const quotes = [
   {
     quote:
+      "Every step of the way, my generation has questioned the conventional paths our parents took, opting instead to try to build a future that’s more in line with what we value, what we believe to be better.",
+    source: "Philadelphia Magazine",
+    link: "https://www.phillymag.com/news/2020/02/01/millennials-having-kids/",
+    industry: "Middle Children",
+  },
+  {
+    quote:
       "Millennials: a pack of non-homeowning social media addicts who rove the lands killing various industries.",
     source: "Yahoo! News",
     link: "https://www.yahoo.com/now/millennials-killing-cereal-boomers-gen-190613585.html",
     industry: "Cereal",
   },
   {
-    quote: "We are trying to figure out how to develop napkin holders that appeal to a younger generation,” he says.",
+    quote:
+      "We are trying to figure out how to develop napkin holders that appeal to a younger generation.",
     source: "Washington Post",
     link: "https://www.washingtonpost.com/lifestyle/home/do-you-use-paper-towels-as-napkins-at-the-dinner-table-you-are-not-alone/2016/03/25/d0d076b0-eb8c-11e5-b0fd-073d5930a7b7_story.html",
-    industry: "Napkins"
-  }
+    industry: "Napkins",
+  },
 ];
