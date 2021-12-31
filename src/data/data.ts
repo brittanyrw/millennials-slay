@@ -315,7 +315,7 @@ export const industries: Industry[] = [
       year: "in 776 BC",
       link: "https://en.wikipedia.org/wiki/Ancient_Olympic_Games#:~:text=The%20first%20Olympic%20Games%20are%20traditionally%20dated%20to%20776%20BC.",
     },
-    summary: "",
+    summary: "Its the sexism for me.",
     sources: [
       {
         name: "Bloomberg",
