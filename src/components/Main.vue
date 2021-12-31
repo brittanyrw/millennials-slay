@@ -60,8 +60,8 @@
             :alt="`${unSlugify(item.image)} emoji`"
           />
         </div>
-        <p>{{ item.summary }}</p>
-        <p>
+        <p class="summary">{{ item.summary }}</p>
+        <p class="created">
           Created
           <span class="origin-link"
             ><a :href="`${item.origin.link}`" target="_blank" :aria-label="`Go to article about origin of ${item.name}`">{{
@@ -76,7 +76,7 @@
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
-            <a :href="`${source.link}`" target="_blank" :aria-label="`Go to ${source.name} ${item.name} article`">{{ source.name }}</a>
+            <a :href="`${source.link}`" target="_blank" :aria-label="`Go to ${source.name} ${item.name} article`">{{ source.name }}<span v-if="source.reaction">{{source.reaction}}</span></a>
           </li>
         </ul>
       </li>
@@ -113,6 +113,7 @@
           >
         </li>
       </ul>
+      <p>Created by <a href="https://musicalwebdev.com" target="_blank">Brittany Walker</a>.</p>
     </div>
   </main>
 </template>
@@ -260,7 +261,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 .card-container {
@@ -384,7 +385,7 @@ li a {
   margin: 5px;
 }
 
-.card p {
+.card .created {
   line-height: 2;
 }
 
@@ -392,6 +393,10 @@ li a {
   background-color: $black;
   padding: 20px;
   // border-radius: 0 0 8px 8px;
+}
+
+.gen-z p, a {
+  color: white;
 }
 
 .gen-z header {

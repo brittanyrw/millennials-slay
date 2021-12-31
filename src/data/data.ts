@@ -18,6 +18,7 @@ export interface Source {
   name: Media;
   year: number;
   link: string;
+  reaction?: string;
 }
 
 export type Media =
@@ -47,6 +48,7 @@ export type Media =
   | "Florida Today"
   | "Forbes"
   | "Fortune"
+  | "The Globe and Mail"
   | "Good Housekeeping"
   | "Hotel Executive"
   | "Houston Chronicle"
@@ -61,6 +63,7 @@ export type Media =
   | "Metro"
   | "Money and Markets"
   | "Moneywise"
+  | "My Recipes"
   | "NBC News"
   | "New Boston Post"
   | "New York Times"
@@ -626,7 +629,7 @@ export const industries: Industry[] = [
       year: "9,000 years ago",
       link: "https://en.wikipedia.org/wiki/Avocado#:~:text=The%20oldest%20discovery%20of%20an%20avocado%20pit%20comes%20from%20Coxcatlan%20Cave%2C%20dating%20from%20around%209%2C000%20to%2010%2C000%20years%20ago.",
     },
-    summary: "My bad, that toast is lit though.",
+    summary: "Our bad...that toast is lit though.",
     sources: [
       {
         name: "Esquire",
@@ -671,11 +674,6 @@ export const industries: Industry[] = [
         name: "We Forum",
         year: 2018,
         link: "https://www.weforum.org/agenda/2018/05/consumers-will-spend-more-time-using-online-media-than-watching-tv-in-2018/",
-      },
-      {
-        name: "Live Mint",
-        year: 2018,
-        link: "https://www.livemint.com/Consumer/sRgXYMVZpVXWGLpLfjT2FK/The-rise-of-millennials-and-the-death-of-television.html",
       },
       {
         name: "Forbes",
@@ -934,18 +932,13 @@ export const industries: Industry[] = [
         year: 2017,
         link: "http://www.businessinsider.com/millennials-are-killing-beer-2017-7",
       },
-      {
-        name: "Yahoo! News",
-        year: 2019,
-        link: "https://www.yahoo.com/now/millennials-killing-us-beer-industry-191037071.html",
-      },
     ],
   },
   {
     name: "Breakfast Cereal",
     image: "glass-of-milk",
     type: "product",
-    summary: "",
+    summary: "Apparently its because we are lazy.",
     origin: {
       year: "in the 19th century",
       link: "https://en.wikipedia.org/wiki/Breakfast_cereal#:~:text=Food%20reformers%20in,breakfast%20cereals.%5B7%5D",
@@ -961,6 +954,12 @@ export const industries: Industry[] = [
         year: 2019,
         link: "https://www.yahoo.com/now/millennials-killing-cereal-boomers-gen-190613585.html",
       },
+      {
+        name: "My Recipes",
+        year: 2018,
+        link: "https://www.myrecipes.com/extracrispy/cereal-sales-are-in-serious-decline",
+        reaction: "🙄"
+      }
     ],
   },
   {
@@ -1250,8 +1249,13 @@ export const industries: Industry[] = [
       year: "in 1892",
       link: "https://opentextbc.ca/introtourism2e/chapter/canada-overview/#:~:text=As%20early%20as%201892%2C%20enterprising%20Canadians%20like%20the%20Brewsters%20became%20the%20country%E2%80%99s%20first%20tour%20operators%2C%20leading%20guests%20through%20areas%20such%20as%20Banff%20National%20Park%20(Brewster%20Travel%20Canada%2C%202014).",
     },
-    summary: "",
+    summary: "Canada is just Canada, eh?",
     sources: [
+      {
+        name: "The Globe and Mail",
+        year: 2016,
+        link: "https://www.theglobeandmail.com/report-on-business/canadian-tourism-industry-losing-out-as-millennials-travel-abroad/article29934647/"
+      },
       {
         name: "Notable Life",
         year: 2016,
@@ -1277,3 +1281,12 @@ export const industries: Industry[] = [
     ],
   },
 ];
+
+export const quotes = [
+  {
+    quote: "Millennials: a pack of non-homeowning social media addicts who rove the lands killing various industries.",
+    source: "Yahoo! News",
+    link: "https://www.yahoo.com/now/millennials-killing-cereal-boomers-gen-190613585.html",
+    industry: "Cereal"
+  }
+ ]
