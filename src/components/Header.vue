@@ -3,7 +3,7 @@
     <img :src="require(`../assets/headstone.png`)" :alt="`headstone emoji`" />
     <h1>Millennials Slay</h1>
     <p>
-      A directory of industries, traditions and products that millenials have
+      A directory of industries, traditions and products that millennials have
       supposedly <span class="strikethrough">killed</span> slayed over the
       years.
     </p>
