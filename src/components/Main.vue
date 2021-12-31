@@ -404,6 +404,7 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   li {
     margin: 15px 10px;
