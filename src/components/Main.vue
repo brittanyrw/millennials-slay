@@ -480,7 +480,7 @@ a {
     justify-content: center;
     text-align: left;
     .quote {
-      margin: 0 20px;
+      margin: 0 40px;
       max-width: 300px;
       .quote-text {
         position: relative;
