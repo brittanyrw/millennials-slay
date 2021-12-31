@@ -958,8 +958,8 @@ export const industries: Industry[] = [
         name: "My Recipes",
         year: 2018,
         link: "https://www.myrecipes.com/extracrispy/cereal-sales-are-in-serious-decline",
-        reaction: "🙄"
-      }
+        reaction: "🙄",
+      },
     ],
   },
   {
@@ -1254,7 +1254,7 @@ export const industries: Industry[] = [
       {
         name: "The Globe and Mail",
         year: 2016,
-        link: "https://www.theglobeandmail.com/report-on-business/canadian-tourism-industry-losing-out-as-millennials-travel-abroad/article29934647/"
+        link: "https://www.theglobeandmail.com/report-on-business/canadian-tourism-industry-losing-out-as-millennials-travel-abroad/article29934647/",
       },
       {
         name: "Notable Life",
@@ -1284,9 +1284,10 @@ export const industries: Industry[] = [
 
 export const quotes = [
   {
-    quote: "Millennials: a pack of non-homeowning social media addicts who rove the lands killing various industries.",
+    quote:
+      "Millennials: a pack of non-homeowning social media addicts who rove the lands killing various industries.",
     source: "Yahoo! News",
     link: "https://www.yahoo.com/now/millennials-killing-cereal-boomers-gen-190613585.html",
-    industry: "Cereal"
-  }
- ]
+    industry: "Cereal",
+  },
+];

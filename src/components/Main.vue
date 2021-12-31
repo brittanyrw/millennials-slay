@@ -64,19 +64,34 @@
         <p class="created">
           Created
           <span class="origin-link"
-            ><a :href="`${item.origin.link}`" target="_blank" :aria-label="`Go to article about origin of ${item.name}`">{{
-              item.origin.year
-            }}</a></span
+            ><a
+              :href="`${item.origin.link}`"
+              target="_blank"
+              :aria-label="`Go to article about origin of ${item.name}`"
+              >{{ item.origin.year }}</a
+            ></span
           >, killin' it since
           <span class="source-start"
-            ><a :href="`${earliestSource(item.sources).link}`" target="_blank" :aria-label="`Go to ${earliestSource(item.sources).year} ${earliestSource(item.sources).name} ${item.name} article`">
+            ><a
+              :href="`${earliestSource(item.sources).link}`"
+              target="_blank"
+              :aria-label="`Go to ${earliestSource(item.sources).year} ${
+                earliestSource(item.sources).name
+              } ${item.name} article`"
+            >
               {{ earliestSource(item.sources).year }}</a
             ></span
           >.
         </p>
         <ul class="sources">
           <li v-for="(source, index) in item.sources" :key="index">
-            <a :href="`${source.link}`" target="_blank" :aria-label="`Go to ${source.name} ${item.name} article`">{{ source.name }}<span v-if="source.reaction">{{source.reaction}}</span></a>
+            <a
+              :href="`${source.link}`"
+              target="_blank"
+              :aria-label="`Go to ${source.name} ${item.name} article`"
+              >{{ source.name
+              }}<span v-if="source.reaction">{{ source.reaction }}</span></a
+            >
           </li>
         </ul>
       </li>
@@ -113,7 +128,10 @@
           >
         </li>
       </ul>
-      <p>Created by <a href="https://musicalwebdev.com" target="_blank">Brittany Walker</a>.</p>
+      <p>
+        Created by
+        <a href="https://musicalwebdev.com" target="_blank">Brittany Walker</a>.
+      </p>
     </div>
   </main>
 </template>
@@ -196,7 +214,7 @@ h2 {
 }
 
 .header {
-  @media screen and (min-width: 991px){
+  @media screen and (min-width: 991px) {
     display: flex;
   }
 }
@@ -288,7 +306,7 @@ li a {
 }
 
 .sources li:hover {
-  transition: .5s;
+  transition: 0.5s;
   background-color: $black;
   cursor: pointer;
   a {
@@ -347,7 +365,7 @@ li a {
   align-items: center;
   border-top: 1px solid $black;
   width: 100%;
-  @media screen and (min-width: 998px){
+  @media screen and (min-width: 998px) {
     border-top: 0;
     border-left: 1px solid $black;
   }
@@ -395,7 +413,8 @@ li a {
   // border-radius: 0 0 8px 8px;
 }
 
-.gen-z p, a {
+.gen-z p,
+a {
   color: white;
 }
 

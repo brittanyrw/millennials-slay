@@ -1,9 +1,6 @@
 <template>
   <header class="main-header">
-    <img
-      :src="require(`../assets/headstone.png`)"
-      :alt="`headstone emoji`"
-    />
+    <img :src="require(`../assets/headstone.png`)" :alt="`headstone emoji`" />
     <h1>Millennials Slay</h1>
     <p>
       A directory of industries, traditions and products that millenials have
@@ -14,15 +11,12 @@
 </template>
 
 <script>
-
 export default {
   name: "Header",
 };
-
 </script>
 
 <style lang="scss" scoped>
-
 $black: #2c3e50;
 $gray: #ccc;
 
@@ -45,6 +39,4 @@ h1,
 p {
   margin: 0;
 }
-
-
 </style>

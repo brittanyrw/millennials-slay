@@ -35,5 +35,4 @@ $black: #2c3e50;
   margin: auto;
   border: 1px solid $black;
 }
-
 </style>
