@@ -352,7 +352,7 @@ export const industries: Industry[] = [
       },
       {
         name: "New Zealand Herald",
-        year: 2001,
+        year: 2018,
         link: "https://www.nzherald.co.nz/lifestyle/claims-millennials-killed-mayonnaise-sparks-fury/TOEPHXA7EGE6VBJGV6FESTTML4/",
       },
     ],
