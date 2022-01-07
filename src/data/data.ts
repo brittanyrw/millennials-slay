@@ -938,7 +938,7 @@ export const industries: Industry[] = [
     name: "Breakfast Cereal",
     image: "glass-of-milk",
     type: "product",
-    summary: "Apparently were too lazy to wash bowls.",
+    summary: "Apparently we're too lazy to wash bowls.",
     origin: {
       year: "in the 19th century",
       link: "https://en.wikipedia.org/wiki/Breakfast_cereal#:~:text=Food%20reformers%20in,breakfast%20cereals.%5B7%5D",
