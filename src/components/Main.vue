@@ -56,7 +56,7 @@
         <h2>{{ item.name }}</h2>
         <div class="img-wrapper">
           <img
-            :src="require(`../assets/${item.image}.png`)"
+            :src="require(`../assets/emojis-in-use/${item.image}.png`)"
             :alt="`${unSlugify(item.image)} emoji`"
           />
         </div>
@@ -92,7 +92,7 @@
               >{{ source.name
               }}<img
                 v-if="source.reaction"
-                :src="require(`../assets/eye-roll.png`)"
+                :src="require(`../assets/emojis-in-use/eye-roll.png`)"
                 :alt="`eye roll emoji`"
             /></a>
           </li>
@@ -118,7 +118,7 @@
       <header>
         <h3>Gen Z, they're comin' for ya too...</h3>
         <img
-          :src="require('../assets/smirking-face.png')"
+          :src="require('../assets/emojis-in-use/smirking-face.png')"
           alt="Smirking face emoji"
         />
       </header>
