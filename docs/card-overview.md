@@ -13,7 +13,9 @@ On the website, each `Card` displays:
 * The year the first source was published and a link to that article (this is automatically generated based on what sources you add)
 * News sources for articles talking about millennials and the item
 
-![Screenshot of Baby Names Card](../readme/single-card.png)
+Here is an example of a `Card`.
+
+<img src="../readme/single-card.png" alt="Screenshot of Baby Names Card" width="300">
 
 In the `data.ts` file each `Card` consists of the following object:
 
@@ -39,86 +41,95 @@ In the `data.ts` file each `Card` consists of the following object:
 
 To add a new `Card` to the website, add a new object in the `data.ts` file insides of the `industries` array. Make sure to separate your new object from existing objects with a comma. Below is an overview of each key in the `Card` object. Every key is required.
 
-### Name 👍
+### Name 📣
 
-Each card must have a title. This should be the full title.
+Each card must have a name. This should be name of the product or industry. It should only be a few words long.
 
 ```
 {
-  title: "Beauty and the Beast",
+  title: "Baby Names",
 }
 ```
 
-### Image 😍
+### Image 📸
 
-The emojis should be added to `emojiImgs` as a string. Your emojis should be surrounded by double quotation marks.
+You can find images of available emojis to use inside of the `assets` folder. When adding a new `Card`, choose an image from the `emojis` folder. Move that image to the `emojis-in-use` folder for it to be used for the card. 
 
-## **Important Note: Add five emojis maximum for each card**
+For the value of `image`, it should be a `string` that is the file name of the image (without .png).
+
+## **Important Note: Add only one emoji**
 
 ```
 {
-  emojiImgs: "🏰🥀🎶📚🕰️",
+  image: "baby-medium-skin-tone",
 }
 ```
 
 ### Type 🎬
 
-Specify if the card you are adding is `tv`, `movie` or `musical`. Only add one type per card. 
-
-`musical` under type is referring to live musicals performed on Broadway, the West End, local theaters etc. If you are adding a **movie** musical, please choose `movie` as the type and indicate it is a musical via genres.
+Specify if the card you are adding is a `product`, `activity`, `location` or `tradition`. Only add one type per card. 
 
 ```
 {
-  type: "movie",
+  type: "tradition",
 }
 ```
 
 ### Origin 🔍
 
-The genres should be added as an array (the square [] brackets indicates an array or list). Separate each genre with a comma and each genre should be wrapped in quotes and lowercase. If there are two words for a genre, replace the space with a hyphen (-). There is no limit to the number of genres but try not to add too many.
+For `origin`, look up the origin or original date of the item you are adding. Some of them are easier (such as when the first film was created) but some of them are not as straightforward. For example, for `Baby Names` I put the oldest example of the concept of names in general.
+
+So use your best judgement and try to find a source (Wikipedia is great) for when the item came about. Try to find a specific year but if you can't then things like "1950s" or "19th century" works.
+
+The `year` should be a string of text. This will be inserted in a sentence that reads 'Created `[year goes here]`, killin' it since _____'. So make sure to add `in` or `years ago` or `in the`, etc to your string so the sentence makes sense. 
+
+Examples:
+* 1953: `"in 1953"`
+* 19th century: `"in the 19th century"`
+* 30,000: `"30,000 years ago"`
+
+The `link` should be a `string` that is a URL (please make sure to include https/http). 
+
+Also please include the highlight link if you are able. Highlight the source and right click to copy the highlight link.
+
+![Screenshot showing highlight link](../readme/highlight-link.png)
 
 ```
-{
-  genres: ["animation", "family", "action-adventure"],
+origin: {
+  year: "30,000 years ago",
+  link: "https://link-goes-here.com",
 }
 ```
 
-For movies and TV shows, go to the IMDB profile and find the genres listed under the title. Add these genres to the `Emoji Card` object. Some cards will only have one genre, that is okay! Use the genre chart below as a guide for which genres are available.
-
-See the below screenshot for the location of the genre listing in IMDB profiles.
-
-![Screenshot of the Beauty and the Beast IDMB profile with the genres circled](../readme/imdb-screenshot.png)
-
-
-For musicals, include the `musical` genre and any other genres from the list below that you think fit:
-
-|         |           |           |           |        |         |             |       |
-| ------- | --------- | --------- | --------- | ------ | ------- | ----------- | ----- |
-| action  | adventure | animation | biography | comedy | crime   | documentary | drama |
-| family  | fantasy   | film-noir | history   | horror | music   | mystery     | news  |
-| romance | sci-fi    | sport     | thriller  | war    | western |             |       |
-|         |           |           |           |        |         |             |       |
-
 ### Summary 🔗
 
-For TV shows and movies, add the [IMDB page](https://www.imdb.com/) link.
-
-For musicals link the [Playbill archive page](http://www.playbill.com/vault) for the show. Make sure the Playbill link is for the original production. It will say 'original' under the show name on Playbill. Here is an example of [the page you should be linking](http://www.playbill.com/production/les-miserables-broadway-theatre-vault-0000012257) for musicals.
-
-Make sure the link includes `https` or `http` at the beginning. The link must be wrapped in quotation marks.
+The `summary` should be a short, sarcastic or funny one-liner about the item. It could be why millennials are being blamed, a joke, etc. Bonus points if you use millennial specific slang or pop culture references. 😉
 
 ```
 {
-  itemLink: "https://www.imdb.com/title/tt0101414/",
+  summary: "No babies have been named since.",
 }
 ```
 
 ### Sources 📆
+`Sources` is an array of objects. Each object is an individual source for the item. 
 
-Specify the year the movie or show was released or first aired. Or the first performance year for a musical. This should be a  single number (no quotations around the year). Do not add ranges such as 2017-2019. 
+Find at least one article talking about millennials killing/ruining/ending the item. Preferably you can add 2 - 5 sources. Avoid using tabloids or super political websites. 
+
+Each source object has the `name` of the media organization, the `year` the article was published and a `url` to the actual article.
+
+Duplicate the object to add multiple sources.
+
+In the `data.ts` file, there is a `Media` TypeScript type listing all of the news companies already used. Please use that version of the news company name and add in any new ones that you find.
+
+Example: If your article is from the `Wall Street Journal`, you need to use `Wall Street Journal` as defined in the Media type and not `WSJ` or `The Wall Street Journal`.
 
 ```
-{
-  year: 1994
-}
+  sources: [
+    {
+      name: "Time",
+      year: 2016,
+      link: "https://link-goes-here.com",
+    }
+  ]
 ```
