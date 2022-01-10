@@ -15,7 +15,7 @@ Wanna add something to the list? Please do! If you need ideas, [check out this I
 
 Below is an example of what a `Card` looks like on the website:
 
-In the data file, each `Card` consists of the following object:
+Each `Card` consists of the following object:
 
 ![Screenshot of three cards](readme/cards.png)
 
@@ -38,3 +38,19 @@ In the data file, each `Card` consists of the following object:
   ],
 }
 ```
+
+### Add a Card
+View the [Card Overview](/docs/card_overview.md) for details on adding a card to the project.
+
+## Run the Project
+
+**Project setup**
+```
+npm install
+```
+
+**Compiles and hot-reloads for development**
+```
+npm run serve
+```
+
