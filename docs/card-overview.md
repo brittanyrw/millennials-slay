@@ -101,7 +101,7 @@ origin: {
 }
 ```
 
-### Summary 🔗
+### Summary 📓
 
 The `summary` should be a short, sarcastic or funny one-liner about the item. It could be why millennials are being blamed, a joke, etc. Bonus points if you use millennial specific slang or pop culture references. 😉
 
@@ -111,7 +111,7 @@ The `summary` should be a short, sarcastic or funny one-liner about the item. It
 }
 ```
 
-### Sources 📆
+### Sources 📰
 `Sources` is an array of objects. Each object is an individual source for the item. 
 
 Find at least one article talking about millennials killing/ruining/ending the item. Preferably you can add 2 - 5 sources. Avoid using tabloids or super political websites. 
