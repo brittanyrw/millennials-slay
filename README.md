@@ -39,8 +39,7 @@ Each `Card` consists of the following object:
 }
 ```
 
-### Add a Card
-View the [Card Overview](/docs/card_overview.md) for details on adding a card to the project.
+## View the [Card Overview](/docs/card_overview.md) for details on adding a card to the project.
 
 ## Run the Project
 
