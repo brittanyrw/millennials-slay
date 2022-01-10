@@ -13,7 +13,9 @@ Wanna add something to the list? Please do! If you need ideas, [check out this I
 
 ### Adding a Card
 
-Below is an example of what a `Card` looks like on the website:
+Below is an example of what a `Card` looks like on the website.
+
+## View the [Card Overview](/docs/card_overview.md) for details on adding a card to the project.
 
 Each `Card` consists of the following object:
 
@@ -38,8 +40,6 @@ Each `Card` consists of the following object:
   ],
 }
 ```
-
-## View the [Card Overview](/docs/card_overview.md) for details on adding a card to the project.
 
 ## Run the Project
 
