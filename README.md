@@ -13,9 +13,9 @@ Wanna add something to the list? Please do! If you need ideas, [check out this I
 
 ### Adding a Card
 
-Below is an example of what a card looks like on the website:
+Below is an example of what a `Card` looks like on the website:
 
-In the data file, each `Item Card` consists of the following object:
+In the data file, each `Card` consists of the following object:
 
 ![Screenshot of three cards](readme/cards.png)
 
